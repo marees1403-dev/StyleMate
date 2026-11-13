@@ -1,0 +1,6 @@
+{
+  "name": "StyleMate AI",
+  "description": "Whimsical pastel family fashion, AI outfit pairing, 3D virtual fitting room, and retail operations mobile application.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

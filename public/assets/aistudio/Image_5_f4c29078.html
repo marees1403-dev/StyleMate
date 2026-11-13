@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><meta content="mobile_stack" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700&amp;family=Quicksand:wght@600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{width:100%;margin:0;padding:0;background-color:#fef7ff;}body{overscroll-behavior-y:none;-webkit-tap-highlight-color:transparent;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,16px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "error": "#ba1a1a", "outline": "#7b7580", "on-secondary-fixed-variant": "#663a43", "tertiary-fixed-dim": "#ccc2dc", "on-surface": "#1f182c", "background": "#fef7ff", "primary-fixed": "#ecdcff", "on-tertiary-container": "#fffbff", "error-container": "#ffdad6", "surface-container-high": "#f0e3ff", "primary": "#67518d", "outline-variant": "#cbc4d0", "on-primary": "#ffffff", "on-error": "#ffffff", "on-tertiary": "#ffffff", "on-secondary-fixed": "#331019", "surface": "#fef7ff", "on-tertiary-fixed": "#1e192b", "primary-container": "#8069a7", "surface-variant": "#ebddfa", "surface-container": "#f5eaff", "on-surface-variant": "#49454f", "surface-container-low": "#faf0ff", "secondary-fixed": "#ffd9df", "on-secondary-container": "#7b4c56", "on-primary-container": "#fffbff", "surface-dim": "#e2d5f1", "secondary-container": "#ffc2cd", "surface-container-lowest": "#ffffff", "surface-bright": "#fef7ff", "inverse-primary": "#d5bbff", "tertiary": "#5f596e", "on-error-container": "#93000a", "inverse-surface": "#352d42", "on-background": "#1f182c", "surface-tint": "#69538f", "secondary-fixed-dim": "#f3b7c2", "inverse-on-surface": "#f7edff", "tertiary-fixed": "#e8def8", "on-primary-fixed-variant": "#513c76", "tertiary-container": "#787187", "on-secondary": "#ffffff", "surface-container-highest": "#ebddfa", "on-primary-fixed": "#240d47", "primary-fixed-dim": "#d5bbff", "on-tertiary-fixed-variant": "#4a4458", "secondary": "#80515b" }, "borderRadius": { "DEFAULT": "1rem", "lg": "2rem", "xl": "3rem", "full": "9999px" }, "spacing": { "margin": "1.25rem", "space-md": "1rem", "space-xl": "2.25rem", "space-xs": "0.25rem", "space-sm": "0.5rem", "gutter": "1rem", "space-lg": "1.5rem" }, "fontFamily": { "headline-xl": ["Quicksand"], "label-sm": ["Plus Jakarta Sans"], "headline-md": ["Quicksand"], "body-md": ["Plus Jakarta Sans"], "headline-sm": ["Quicksand"], "headline-lg": ["Quicksand"], "body-lg": ["Plus Jakarta Sans"], "body-sm": ["Plus Jakarta Sans"], "headline-xl-mobile": ["Quicksand"], "label-md": ["Plus Jakarta Sans"], "label-lg": ["Plus Jakarta Sans"] }, "fontSize": { "headline-xl": ["34px", {"lineHeight": "42px", "fontWeight": "700"}], "label-sm": ["11px", {"lineHeight": "14px", "fontWeight": "600"}], "headline-md": ["20px", {"lineHeight": "28px", "fontWeight": "600"}], "body-md": ["14px", {"lineHeight": "20px", "fontWeight": "400"}], "headline-sm": ["18px", {"lineHeight": "24px", "fontWeight": "600"}], "headline-lg": ["24px", {"lineHeight": "32px", "fontWeight": "700"}], "body-lg": ["16px", {"lineHeight": "24px", "fontWeight": "400"}], "body-sm": ["12px", {"lineHeight": "18px", "fontWeight": "400"}], "headline-xl-mobile": ["26px", {"lineHeight": "34px", "fontWeight": "700"}], "label-md": ["12px", {"lineHeight": "16px", "fontWeight": "600"}], "label-lg": ["14px", {"lineHeight": "20px", "fontWeight": "700"}] } } } };</script><style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head><body class="bg-surface text-on-surface antialiased flex flex-col min-h-screen selection:bg-secondary-container"><header class="fixed top-0 left-0 right-0 z-50 bg-surface/85 backdrop-blur-xl pt-safe shadow-[0_4px_20px_rgba(103,81,141,0.06)]"><div class="h-16 px-margin flex items-center justify-between"><div class="flex items-center gap-space-xs"><button aria-label="Go back" class="w-11 h-11 rounded-full flex items-center justify-center text-on-surface bg-surface-container-high/60 active:scale-95 transition-all" onclick="history.back()" type="button"><span class="material-symbols-outlined text-xl">arrow_back_ios_new</span></button><img alt="StyleMate AI Logo" class="h-7 w-auto object-contain hidden xs:inline" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDr6WtNWXDRj8SW7j79LpPG41FH1OGTY4GK4i-as2AAcaj8fm_ufib22X13uZwhF7onIQSqMIB1IDf3WuLR8nFYGfLxZjQsQ6rts99bKllIRNTM8K_j5xmnnh7He3TqnGhaIru1q3uUHY6qrC9CHkdqKTQh5TpPqzs0YoP0XQMWyD8uVLFlU-xGnlr3p6Hk92rydkzccxLZfz660BH-xeFBOAA2dNskiT8WTRWzfB1w_2RH431IvAmQ"/></div><h1 class="font-headline-sm text-headline-sm text-on-surface font-bold tracking-tight">Product Details</h1><div class="flex items-center gap-space-xs"><button aria-label="Shopping Bag" class="relative w-11 h-11 rounded-full flex items-center justify-center text-on-surface hover:bg-surface-container transition-colors" type="button"><span class="material-symbols-outlined text-2xl">shopping_bag</span><span class="absolute top-1.5 right-1.5 min-w-[18px] h-[18px] px-1 bg-secondary text-on-secondary rounded-full font-label-sm text-[10px] leading-[18px] text-center font-bold shadow-[0_2px_6px_rgba(128,81,91,0.35)]">2</span></button><div class="w-11 h-11 flex items-center justify-center"><img alt="Profile" class="w-8 h-8 rounded-full object-cover ring-2 ring-primary-fixed" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB_PD0baHwqEGbcO15Opic0GcTzt6HDBgB_S0D9mEF5yrcc4uWzv46P4JdA4d9oevhEvpohyvSe4XmPKp5kNyovuIAZJ35sCQhBYTuEXVRGyg_7HYiEaa5EEGNFJ002u4laeL5kKXNvoLryqZne6SQ5755JR8Q_OpzZTTrQVFqmBF590P5iTss05-hl8adJd7gLadTcGdmZbKbbQ9zblJOaAqH57Y6apFsxDBR9EkjzL--5BI8NjFqj"/></div></div></div></header><main class="flex-1 flex flex-col relative w-full pt-16 bg-surface pb-safe"><div class="flex flex-col w-full pb-28">
+<!-- Top Floating Actions & Navigation Bar within Screen -->
+<div class="px-margin pt-space-xs pb-space-sm flex items-center justify-between">
+<div class="flex items-center gap-space-xs bg-surface-container-high/80 backdrop-blur-md px-3 py-1.5 rounded-full shadow-sm">
+<span class="material-symbols-outlined text-primary text-sm" style="font-variation-settings: 'FILL' 1;">arrow_back_ios_new</span>
+<span class="font-label-sm text-label-sm text-primary">Family Capsule Match</span>
+</div>
+<div class="flex items-center gap-space-sm">
+<button aria-label="Favorite" class="w-10 h-10 rounded-full bg-surface-container-lowest shadow-md flex items-center justify-center text-secondary active:scale-90 transition-transform" id="wishlist-btn" type="button">
+<span class="material-symbols-outlined text-xl transition-all" id="heart-icon" style="font-variation-settings: 'FILL' 1;">favorite</span>
+</button>
+<button aria-label="Share" class="w-10 h-10 rounded-full bg-surface-container-lowest shadow-md flex items-center justify-center text-on-surface-variant active:scale-90 transition-transform" type="button">
+<span class="material-symbols-outlined text-xl">share</span>
+</button>
+</div>
+</div>
+<!-- Hero Image Carousel Container -->
+<div class="px-margin relative">
+<div class="relative w-full aspect-[4/5] rounded-xl overflow-hidden bg-gradient-to-b from-surface-container to-surface-container-low shadow-[0_8px_24px_rgba(103,81,141,0.12)]">
+<img class="w-full h-full object-cover" data-alt="Charming 3D rendered character-styled fashion display of a cozy lavender cloud button-up shirt worn under a soft chunky vanilla knitted cardigan with sweet pearlescent buttons. Soft pastel dreamscape lighting, doll-scale aesthetic, marshmallow textures, gentle blush tones, highly detailed fabric knit and cotton weave." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBX5TC6halyg1e_Ww95b52Gbp6KkQPuVCM_PQkDgT6iBkcMCBiCJMiEjA0iah4vfG-Ibw_tELU2k74JyZVtTj-Nacb930t3VWGOJQbucA1coEntYyrg1cIikcGPQbQGk6YvkDtWXeVff0jSuam32juUvgVkjRH2l2B_Lgl_zsfp1bpIUf485CDthCReI2txfu1-jvrkXllM-qMX-mDbuzm6GTpletOtEHqYSQyImvdgEgUXhzH0XNYG"/>
+<!-- Top badges -->
+<div class="absolute top-4 left-4 flex flex-col gap-1.5">
+<div class="flex items-center gap-1.5 bg-secondary text-on-secondary px-3 py-1 rounded-full shadow-md">
+<span class="material-symbols-outlined text-xs">local_fire_department</span>
+<span class="font-label-sm text-label-sm font-bold tracking-wide uppercase">26% OFF</span>
+</div>
+<div class="flex items-center gap-1.5 bg-surface-container-lowest/90 backdrop-blur-md text-primary px-3 py-1 rounded-full shadow-sm">
+<span class="material-symbols-outlined text-xs" style="font-variation-settings: 'FILL' 1;">view_in_ar</span>
+<span class="font-label-sm text-label-sm font-semibold">3D Avatar Ready</span>
+</div>
+</div>
+<!-- Quick Family Match Badge -->
+<div class="absolute top-4 right-4 bg-surface-container-lowest/90 backdrop-blur-md p-1.5 rounded-full shadow-sm flex items-center gap-1">
+<span class="w-6 h-6 rounded-full bg-secondary-container text-on-secondary-container flex items-center justify-center font-label-sm text-[10px] font-bold">Kids</span>
+<span class="w-6 h-6 rounded-full bg-primary-fixed text-on-primary-fixed flex items-center justify-center font-label-sm text-[10px] font-bold">Men</span>
+</div>
+<!-- Carousel Dots & Zoom Hint -->
+<div class="absolute bottom-4 inset-x-0 flex items-center justify-between px-4">
+<div class="bg-surface-container-lowest/80 backdrop-blur-md px-2.5 py-1 rounded-full text-on-surface-variant font-label-sm text-label-sm flex items-center gap-1">
+<span class="material-symbols-outlined text-xs">zoom_in</span> Tap to zoom
+        </div>
+<div class="flex items-center gap-1.5 bg-surface-container-lowest/80 backdrop-blur-md px-3 py-1 rounded-full">
+<span class="w-2.5 h-2.5 rounded-full bg-primary"></span>
+<span class="w-2 h-2 rounded-full bg-outline-variant"></span>
+<span class="w-2 h-2 rounded-full bg-outline-variant"></span>
+<span class="w-2 h-2 rounded-full bg-outline-variant"></span>
+</div>
+</div>
+</div>
+</div>
+<!-- Product Title & Price Section -->
+<div class="px-margin mt-space-md flex flex-col gap-space-xs">
+<div class="flex items-center justify-between">
+<span class="font-label-md text-label-md text-primary tracking-wide uppercase font-bold flex items-center gap-1">
+<span class="material-symbols-outlined text-base">auto_awesome</span> Pastel Dreamer Series
+      </span>
+<span class="font-label-sm text-label-sm text-secondary bg-secondary-fixed px-2.5 py-0.5 rounded-full font-bold">
+        Ships in 24h
+      </span>
+</div>
+<h2 class="font-headline-lg text-headline-lg text-on-surface tracking-tight leading-snug">
+      Lavender Cloud Soft Cardigan &amp; Blouse Set
+    </h2>
+<!-- Rating & Match Meter -->
+<div class="flex items-center gap-2 mt-0.5">
+<div class="flex items-center gap-1 bg-surface-container-high px-2 py-0.5 rounded-full">
+<span class="material-symbols-outlined text-secondary text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-label-md text-label-md text-on-surface font-bold">4.9</span>
+</div>
+<span class="font-body-sm text-body-sm text-outline">(128 reviews)</span>
+<span class="w-1 h-1 rounded-full bg-outline-variant"></span>
+<span class="font-label-sm text-label-sm text-primary font-bold bg-primary-fixed/60 px-2.5 py-0.5 rounded-full flex items-center gap-1">
+<span class="material-symbols-outlined text-xs">thumb_up</span> Top AI Recommendation
+      </span>
+</div>
+<!-- Price Header -->
+<div class="flex items-baseline gap-2 mt-2">
+<span class="font-headline-xl text-headline-xl-mobile text-primary font-bold">$48.00</span>
+<span class="font-body-md text-body-md text-outline line-through">$65.00</span>
+<span class="font-label-sm text-label-sm text-secondary bg-secondary-container px-2 py-0.5 rounded-full font-bold">Save $17</span>
+</div>
+</div>
+<!-- Demographic & Family Coordination Switcher -->
+<div class="px-margin mt-space-md">
+<div class="bg-surface-container p-1 rounded-full flex items-center justify-between text-center">
+<button class="flex-1 py-2 rounded-full bg-primary text-on-primary font-label-md text-label-md shadow-sm transition-all flex items-center justify-center gap-1" type="button">
+<span class="material-symbols-outlined text-sm">female</span> Women
+      </button>
+<button class="flex-1 py-2 rounded-full text-on-surface-variant font-label-md text-label-md hover:text-on-surface transition-all flex items-center justify-center gap-1" type="button">
+<span class="material-symbols-outlined text-sm">male</span> Men <span class="text-[10px] bg-surface-container-high px-1.5 rounded-full text-primary font-bold">Mini-Me</span>
+</button>
+<button class="flex-1 py-2 rounded-full text-on-surface-variant font-label-md text-label-md hover:text-on-surface transition-all flex items-center justify-center gap-1" type="button">
+<span class="material-symbols-outlined text-sm">child_care</span> Kids <span class="text-[10px] bg-secondary-fixed text-on-secondary-fixed px-1.5 rounded-full font-bold">Duo</span>
+</button>
+</div>
+</div>
+<!-- Interactive Selectors (Color & Size) -->
+<div class="px-margin mt-space-md flex flex-col gap-space-md">
+<!-- Color Selector -->
+<div class="flex flex-col gap-2">
+<div class="flex items-center justify-between">
+<span class="font-label-lg text-label-lg text-on-surface">Color Palette: <span class="text-primary font-bold" id="selected-color">Lilac Blossom</span></span>
+<span class="font-label-sm text-label-sm text-outline">4 Whimsical Shades</span>
+</div>
+<div class="flex items-center gap-space-sm" id="color-options">
+<button class="color-btn flex items-center gap-2 pl-1.5 pr-3 py-1.5 rounded-full bg-surface-container-lowest shadow-sm ring-2 ring-primary text-on-surface transition-all active:scale-95" data-color-name="Lilac Blossom" type="button">
+<span class="w-5 h-5 rounded-full bg-[#c8b6e2] shadow-inner"></span>
+<span class="font-label-sm text-label-sm font-bold">Lilac</span>
+</button>
+<button class="color-btn flex items-center gap-2 pl-1.5 pr-3 py-1.5 rounded-full bg-surface-container-lowest shadow-sm text-on-surface-variant transition-all active:scale-95" data-color-name="Sweet Pink" type="button">
+<span class="w-5 h-5 rounded-full bg-[#ffd0d9] shadow-inner"></span>
+<span class="font-label-sm text-label-sm">Sweet Pink</span>
+</button>
+<button class="color-btn flex items-center gap-2 pl-1.5 pr-3 py-1.5 rounded-full bg-surface-container-lowest shadow-sm text-on-surface-variant transition-all active:scale-95" data-color-name="Cream Vanilla" type="button">
+<span class="w-5 h-5 rounded-full bg-[#fceddc] shadow-inner"></span>
+<span class="font-label-sm text-label-sm">Cream</span>
+</button>
+<button class="color-btn flex items-center gap-2 pl-1.5 pr-3 py-1.5 rounded-full bg-surface-container-lowest shadow-sm text-on-surface-variant transition-all active:scale-95" data-color-name="Cloud White" type="button">
+<span class="w-5 h-5 rounded-full bg-[#ffffff] shadow-inner"></span>
+<span class="font-label-sm text-label-sm">Cloud</span>
+</button>
+</div>
+</div>
+<!-- Size Selector & AI Sizing -->
+<div class="flex flex-col gap-2">
+<div class="flex items-center justify-between">
+<span class="font-label-lg text-label-lg text-on-surface">Select Size</span>
+<button class="flex items-center gap-1 text-primary font-label-sm text-label-sm font-bold hover:underline" type="button">
+<span class="material-symbols-outlined text-sm">straighten</span> Smart Size Guide
+        </button>
+</div>
+<!-- Size Chips -->
+<div class="flex items-center gap-2" id="size-options">
+<button class="size-btn w-12 h-11 rounded-full bg-surface-container-lowest shadow-sm flex items-center justify-center font-label-md text-label-md text-on-surface active:scale-95 transition-all" type="button">XS</button>
+<button class="size-btn w-12 h-11 rounded-full bg-primary text-on-primary shadow-md flex items-center justify-center font-label-md text-label-md font-bold active:scale-95 transition-all" type="button">S</button>
+<button class="size-btn w-12 h-11 rounded-full bg-surface-container-lowest shadow-sm flex items-center justify-center font-label-md text-label-md text-on-surface active:scale-95 transition-all" type="button">M</button>
+<button class="size-btn w-12 h-11 rounded-full bg-surface-container-lowest shadow-sm flex items-center justify-center font-label-md text-label-md text-on-surface active:scale-95 transition-all" type="button">L</button>
+<button class="size-btn w-12 h-11 rounded-full bg-surface-container-lowest shadow-sm flex items-center justify-center font-label-md text-label-md text-on-surface active:scale-95 transition-all" type="button">XL</button>
+</div>
+<!-- AI Fit Confidence Box -->
+<div class="bg-surface-container-low p-3 rounded-lg flex items-center justify-between shadow-sm">
+<div class="flex items-center gap-2.5">
+<div class="w-7 h-7 rounded-full bg-secondary-fixed text-on-secondary-fixed flex items-center justify-center">
+<span class="material-symbols-outlined text-base">check_circle</span>
+</div>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface font-semibold">AI Fit Prediction: 94% true to size</span>
+<span class="font-body-sm text-body-sm text-outline">Size S is recommended for your 5'4" cozy oversized look</span>
+</div>
+</div>
+<span class="material-symbols-outlined text-outline-variant text-base">info</span>
+</div>
+</div>
+</div>
+<!-- Primary Interactive 3D Avatar CTA Banner -->
+<div class="px-margin mt-space-lg">
+<div class="relative overflow-hidden bg-gradient-to-r from-primary to-primary-container p-4 rounded-xl shadow-[0_8px_24px_rgba(103,81,141,0.25)] text-on-primary flex items-center justify-between">
+<div class="flex flex-col gap-1 max-w-[65%] z-10">
+<div class="flex items-center gap-1.5 bg-white/20 backdrop-blur-md px-2 py-0.5 rounded-full w-max">
+<span class="material-symbols-outlined text-xs">auto_fix_high</span>
+<span class="font-label-sm text-label-sm uppercase font-bold tracking-wider">Virtual Fitting</span>
+</div>
+<span class="font-headline-sm text-headline-sm font-bold leading-tight">Try on My 3D Avatar</span>
+<span class="font-body-sm text-body-sm text-primary-fixed opacity-95">See live drape &amp; sync with kids' outfits</span>
+</div>
+<button class="z-10 w-14 h-14 rounded-full bg-surface-container-lowest text-primary shadow-lg flex items-center justify-center active:scale-90 transition-transform" type="button">
+<span class="material-symbols-outlined text-3xl" style="font-variation-settings: 'FILL' 1;">checkroom</span>
+</button>
+<!-- Soft decorative pastel bubble background overlay -->
+<div class="absolute -right-6 -bottom-8 w-32 h-32 rounded-full bg-white/10 blur-xl pointer-events-none"></div>
+</div>
+</div>
+<!-- Why You May Like This (AI Personalization Card) -->
+<div class="px-margin mt-space-md">
+<div class="bg-surface-container-lowest p-4 rounded-xl shadow-sm flex flex-col gap-space-xs">
+<div class="flex items-center gap-2 text-primary">
+<span class="material-symbols-outlined text-xl">lightbulb</span>
+<span class="font-label-lg text-label-lg font-bold">Why you may like this</span>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+        Based on your preference for soft pastel colors, oversized cuts, and an <strong class="text-on-surface font-semibold">85% aesthetic match</strong> with items in your 'Spring Hugs' saved capsule.
+      </p>
+<!-- Aesthetic compatibility tags -->
+<div class="flex flex-wrap gap-1.5 pt-1">
+<span class="bg-surface-container px-2.5 py-1 rounded-full font-label-sm text-label-sm text-on-surface-variant">#SoftStreetwear</span>
+<span class="bg-surface-container px-2.5 py-1 rounded-full font-label-sm text-label-sm text-on-surface-variant">#ChunkyKnit</span>
+<span class="bg-surface-container px-2.5 py-1 rounded-full font-label-sm text-label-sm text-on-surface-variant">#FamilyCoordinated</span>
+</div>
+</div>
+</div>
+<!-- Complete The Cute Look (Moodboard Teaser Carousel) -->
+<div class="mt-space-lg flex flex-col gap-space-sm">
+<div class="px-margin flex items-center justify-between">
+<h3 class="font-headline-sm text-headline-sm text-on-surface font-bold">Complete the Look</h3>
+<span class="font-label-md text-label-md text-primary font-semibold">Bundle &amp; Save 15%</span>
+</div>
+<div class="flex gap-3 overflow-x-auto px-margin no-scrollbar pb-2">
+<!-- Pair 1: Pink Wide Pants -->
+<div class="min-w-[150px] max-w-[150px] bg-surface-container-lowest p-2.5 rounded-lg shadow-sm flex flex-col gap-2">
+<div class="w-full aspect-square rounded-md overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover" data-alt="Charming pastel blush pink oversized wide-leg trousers, soft toy aesthetic with delicate stitching, marshmallow texture on vanilla background." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAc36fMVeG8B_AcbAkKQegYvBhZK1ZLe2Yk08NtPT4sfqIzTcXRh9Ib8c5sFCO-G7gx2r5SvrUxs1tiQ0q4euxvXMKUemFFOgDHeUBRsxsSafDyQ0gaBRC-JCMbBGxAD_A1iPMWEJawMEpMcd8_-LjbgPBooOgSihywYoKYtPWcG-hwSiVE1K4uZzR9ej5m83fsvCG5oR0USppN_UzVdaZ4zFqW_X_zUjZkY_2cIFOmvdb_8CNX8ABs"/>
+</div>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface font-semibold truncate">Blush Cozy Slacks</span>
+<span class="font-label-sm text-label-sm text-primary font-bold">$34.00</span>
+</div>
+</div>
+<!-- Pair 2: Chunky Sneaker -->
+<div class="min-w-[150px] max-w-[150px] bg-surface-container-lowest p-2.5 rounded-lg shadow-sm flex flex-col gap-2">
+<div class="w-full aspect-square rounded-md overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover" data-alt="Chunky pastel lilac and cream low-top sneakers with puffy heart decal, cute rounded toe, soft aesthetic streetwear footwear." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDUU4CHFCh6nTy17-4sGFE1-QxlvjVtcujWhJ6R8AmFi97qp0px-qvrRN3yAUeARAc7ccareRy_L0KEeYb9rH3gUQMBbI042W4wqkcO9e2MI1nH9iQLxbpSDAqc9-EfgpKxucA7a84ehRtUevF3u6322iGJwG_6H-9zsOA2zKa_Ep04wJuhiqhCXkZKg3ATwm3ULlBViuVPO0pS7nsQs352JerNYTN8MDFdZ-fHq5kZ14q5Dj6l2uZa"/>
+</div>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface font-semibold truncate">Lilac Cloud Sneakers</span>
+<span class="font-label-sm text-label-sm text-primary font-bold">$52.00</span>
+</div>
+</div>
+<!-- Pair 3: Mini Bag -->
+<div class="min-w-[150px] max-w-[150px] bg-surface-container-lowest p-2.5 rounded-lg shadow-sm flex flex-col gap-2">
+<div class="w-full aspect-square rounded-md overflow-hidden bg-surface-container">
+<img class="w-full h-full object-cover" data-alt="Mini cream vanilla structured handbag with cute golden heart clasp and puffy strap, doll scale aesthetic accessory." src="https://lh3.googleusercontent.com/aida-public/AB6AXuB8Rbg6o1f_YlJJDSIpbC_eIaJfA_6EoDb5E_QsOLMu-Uw_Z_xaFC48wSiPxSYUPZMlEaG-9xSzKbbuNCTXURaUho_e_U9J48TYDD0oLIAFXEKpaQcSQhmCAQE1huC4qb_lVceXu6_4cfKposTDC-4GqnRMT8j5BkADzKLuXQsXsLd0O8WkxmOXIwQLXHvUd3Qq-kfCU27aO7SsuG-jHga8xUZZlHOU7ct7DV6IY2lhKbCddj_AGkJP"/>
+</div>
+<div class="flex flex-col">
+<span class="font-label-md text-label-md text-on-surface font-semibold truncate">Vanilla Heart Mini Bag</span>
+<span class="font-label-sm text-label-sm text-primary font-bold">$29.00</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Customer Reviews Teaser Card -->
+<div class="px-margin mt-space-md">
+<div class="bg-surface-container-lowest p-4 rounded-xl shadow-sm flex flex-col gap-space-sm">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-1.5">
+<span class="material-symbols-outlined text-secondary text-lg" style="font-variation-settings: 'FILL' 1;">verified</span>
+<span class="font-label-lg text-label-lg font-bold text-on-surface">100% Verified Fit Rating</span>
+</div>
+<span class="font-label-sm text-label-sm text-primary font-semibold">View All 128</span>
+</div>
+<!-- Reviewer snippet -->
+<div class="bg-surface-container-low p-3 rounded-lg flex flex-col gap-1.5">
+<div class="flex items-center justify-between">
+<div class="flex items-center gap-2">
+<div class="w-6 h-6 rounded-full bg-secondary-fixed text-on-secondary-fixed flex items-center justify-center font-label-sm font-bold text-xs">
+              M
+            </div>
+<span class="font-label-md text-label-md font-bold text-on-surface">Mina K.</span>
+<span class="font-label-sm text-label-sm text-outline">Verified Buyer</span>
+</div>
+<div class="flex text-secondary text-xs">
+<span class="material-symbols-outlined text-xs" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-xs" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-xs" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-xs" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-xs" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant italic">
+          “The knit texture is unreal! Felt like a warm cloud, and matching it with my toddler's dungarees was the sweetest moment at family brunch.”
+        </p>
+</div>
+</div>
+</div>
+<!-- Bottom Docked Thumb Bar -->
+<div class="fixed bottom-0 left-0 right-0 z-40 bg-surface/90 backdrop-blur-xl px-margin py-3 shadow-[0_-8px_32px_rgba(45,37,58,0.08)]">
+<div class="max-w-md mx-auto flex items-center gap-3">
+<!-- Mini Price preview -->
+<div class="flex flex-col min-w-max">
+<span class="font-label-sm text-label-sm text-outline">Total Price</span>
+<span class="font-headline-md text-headline-md text-primary font-bold leading-none">$48.00</span>
+</div>
+<!-- Add to Bag secondary pill -->
+<button class="flex-1 py-3.5 px-4 rounded-full bg-secondary-container text-on-secondary-container font-label-lg text-label-lg font-bold flex items-center justify-center gap-1.5 active:scale-95 transition-transform shadow-sm" id="add-to-cart-btn" type="button">
+<span class="material-symbols-outlined text-lg">keyboard_double_arrow_left</span>
+<span>Add to Bag</span>
+</button>
+<!-- Instant Buy Now Pill CTA -->
+<button class="flex-1 py-3.5 px-4 rounded-full bg-primary text-on-primary font-label-lg text-label-lg font-bold flex items-center justify-center gap-1.5 active:scale-95 transition-transform shadow-[0_8px_20px_rgba(103,81,141,0.3)]" type="button">
+<span class="material-symbols-outlined text-lg">flash_on</span>
+<span>Buy Now</span>
+</button>
+</div>
+</div>
+</div>
+<script>
+  // Simple micro-interactions for playful delight
+  const heartBtn = document.getElementById('wishlist-btn');
+  const heartIcon = document.getElementById('heart-icon');
+  let isFav = true;
+
+  heartBtn?.addEventListener('click', () => {
+    isFav = !isFav;
+    heartIcon.style.fontVariationSettings = isFav ? "'FILL' 1" : "'FILL' 0";
+    heartIcon.style.transform = "scale(1.3)";
+    setTimeout(() => {
+      heartIcon.style.transform = "scale(1.0)";
+    }, 200);
+  });
+
+  // Color selection
+  const colorBtns = document.querySelectorAll('.color-btn');
+  const colorDisplay = document.getElementById('selected-color');
+  colorBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      colorBtns.forEach(b => {
+        b.classList.remove('ring-2', 'ring-primary', 'text-on-surface');
+        b.classList.add('text-on-surface-variant');
+      });
+      btn.classList.add('ring-2', 'ring-primary', 'text-on-surface');
+      btn.classList.remove('text-on-surface-variant');
+      if (colorDisplay) {
+        colorDisplay.textContent = btn.getAttribute('data-color-name');
+      }
+    });
+  });
+
+  // Size selection
+  const sizeBtns = document.querySelectorAll('.size-btn');
+  sizeBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      sizeBtns.forEach(b => {
+        b.classList.remove('bg-primary', 'text-on-primary', 'font-bold');
+        b.classList.add('bg-surface-container-lowest', 'text-on-surface');
+      });
+      btn.classList.add('bg-primary', 'text-on-primary', 'font-bold');
+      btn.classList.remove('bg-surface-container-lowest', 'text-on-surface');
+    });
+  });
+
+  // Add to cart micro-animation
+  const cartBtn = document.getElementById('add-to-cart-btn');
+  cartBtn?.addEventListener('click', () => {
+    const originalText = cartBtn.innerHTML;
+    cartBtn.innerHTML = `<span class="material-symbols-outlined text-lg">check</span> Added!`;
+    setTimeout(() => {
+      cartBtn.innerHTML = originalText;
+    }, 1500);
+  });
+</script></main></body></html>

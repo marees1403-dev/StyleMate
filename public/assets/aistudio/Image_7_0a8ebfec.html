@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><meta content="mobile_tab" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700&amp;family=Quicksand:wght@600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{width:100%;margin:0;padding:0;background-color:#fef7ff;}body{overscroll-behavior-y:none;-webkit-tap-highlight-color:transparent;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,16px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "error": "#ba1a1a", "outline": "#7b7580", "on-secondary-fixed-variant": "#663a43", "tertiary-fixed-dim": "#ccc2dc", "on-surface": "#1f182c", "background": "#fef7ff", "primary-fixed": "#ecdcff", "on-tertiary-container": "#fffbff", "error-container": "#ffdad6", "surface-container-high": "#f0e3ff", "primary": "#67518d", "outline-variant": "#cbc4d0", "on-primary": "#ffffff", "on-error": "#ffffff", "on-tertiary": "#ffffff", "on-secondary-fixed": "#331019", "surface": "#fef7ff", "on-tertiary-fixed": "#1e192b", "primary-container": "#8069a7", "surface-variant": "#ebddfa", "surface-container": "#f5eaff", "on-surface-variant": "#49454f", "surface-container-low": "#faf0ff", "secondary-fixed": "#ffd9df", "on-secondary-container": "#7b4c56", "on-primary-container": "#fffbff", "surface-dim": "#e2d5f1", "secondary-container": "#ffc2cd", "surface-container-lowest": "#ffffff", "surface-bright": "#fef7ff", "inverse-primary": "#d5bbff", "tertiary": "#5f596e", "on-error-container": "#93000a", "inverse-surface": "#352d42", "on-background": "#1f182c", "surface-tint": "#69538f", "secondary-fixed-dim": "#f3b7c2", "inverse-on-surface": "#f7edff", "tertiary-fixed": "#e8def8", "on-primary-fixed-variant": "#513c76", "tertiary-container": "#787187", "on-secondary": "#ffffff", "surface-container-highest": "#ebddfa", "on-primary-fixed": "#240d47", "primary-fixed-dim": "#d5bbff", "on-tertiary-fixed-variant": "#4a4458", "secondary": "#80515b" }, "borderRadius": { "DEFAULT": "1rem", "lg": "2rem", "xl": "3rem", "full": "9999px" }, "spacing": { "margin": "1.25rem", "space-md": "1rem", "space-xl": "2.25rem", "space-xs": "0.25rem", "space-sm": "0.5rem", "gutter": "1rem", "space-lg": "1.5rem" }, "fontFamily": { "headline-xl": ["Quicksand"], "label-sm": ["Plus Jakarta Sans"], "headline-md": ["Quicksand"], "body-md": ["Plus Jakarta Sans"], "headline-sm": ["Quicksand"], "headline-lg": ["Quicksand"], "body-lg": ["Plus Jakarta Sans"], "body-sm": ["Plus Jakarta Sans"], "headline-xl-mobile": ["Quicksand"], "label-md": ["Plus Jakarta Sans"], "label-lg": ["Plus Jakarta Sans"] }, "fontSize": { "headline-xl": ["34px", {"lineHeight": "42px", "fontWeight": "700"}], "label-sm": ["11px", {"lineHeight": "14px", "fontWeight": "600"}], "headline-md": ["20px", {"lineHeight": "28px", "fontWeight": "600"}], "body-md": ["14px", {"lineHeight": "20px", "fontWeight": "400"}], "headline-sm": ["18px", {"lineHeight": "24px", "fontWeight": "600"}], "headline-lg": ["24px", {"lineHeight": "32px", "fontWeight": "700"}], "body-lg": ["16px", {"lineHeight": "24px", "fontWeight": "400"}], "body-sm": ["12px", {"lineHeight": "18px", "fontWeight": "400"}], "headline-xl-mobile": ["26px", {"lineHeight": "34px", "fontWeight": "700"}], "label-md": ["12px", {"lineHeight": "16px", "fontWeight": "600"}], "label-lg": ["14px", {"lineHeight": "20px", "fontWeight": "700"}] } } } };</script><style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head><body class="bg-surface text-on-surface antialiased flex flex-col min-h-screen selection:bg-secondary-container"><header class="fixed top-0 left-0 right-0 z-50 bg-surface/85 backdrop-blur-xl pt-safe shadow-[0_4px_20px_rgba(103,81,141,0.06)]"><div class="h-16 px-margin flex items-center justify-between gap-space-sm"><div class="flex items-center gap-space-xs"><img alt="StyleMate AI Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDr6WtNWXDRj8SW7j79LpPG41FH1OGTY4GK4i-as2AAcaj8fm_ufib22X13uZwhF7onIQSqMIB1IDf3WuLR8nFYGfLxZjQsQ6rts99bKllIRNTM8K_j5xmnnh7He3TqnGhaIru1q3uUHY6qrC9CHkdqKTQh5TpPqzs0YoP0XQMWyD8uVLFlU-xGnlr3p6Hk92rydkzccxLZfz660BH-xeFBOAA2dNskiT8WTRWzfB1w_2RH431IvAmQ"/><span class="font-headline-sm text-headline-sm text-on-surface hidden xs:inline tracking-tight">StyleMate</span></div><div class="flex items-center bg-surface-container-high p-1 rounded-full shadow-[inset_0_1px_2px_rgba(31,24,44,0.04)]"><button class="px-3 py-1 rounded-full bg-primary text-on-primary font-label-sm text-label-sm shadow-[0_2px_8px_rgba(103,81,141,0.25)] transition-all" type="button">Women</button><button class="px-2.5 py-1 rounded-full text-on-surface-variant font-label-sm text-label-sm hover:text-on-surface transition-all" type="button">Men</button><button class="px-2.5 py-1 rounded-full text-on-surface-variant font-label-sm text-label-sm hover:text-on-surface transition-all" type="button">Kids</button></div><div class="flex items-center gap-space-xs"><button aria-label="Shopping Bag" class="relative w-11 h-11 rounded-full flex items-center justify-center text-on-surface hover:bg-surface-container transition-colors" type="button"><span class="material-symbols-outlined text-2xl">shopping_bag</span><span class="absolute top-1.5 right-1.5 min-w-[18px] h-[18px] px-1 bg-secondary text-on-secondary rounded-full font-label-sm text-[10px] leading-[18px] text-center font-bold shadow-[0_2px_6px_rgba(128,81,91,0.35)]">2</span></button><div class="w-11 h-11 flex items-center justify-center"><img alt="Profile" class="w-8 h-8 rounded-full object-cover ring-2 ring-primary-fixed" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB_PD0baHwqEGbcO15Opic0GcTzt6HDBgB_S0D9mEF5yrcc4uWzv46P4JdA4d9oevhEvpohyvSe4XmPKp5kNyovuIAZJ35sCQhBYTuEXVRGyg_7HYiEaa5EEGNFJ002u4laeL5kKXNvoLryqZne6SQ5755JR8Q_OpzZTTrQVFqmBF590P5iTss05-hl8adJd7gLadTcGdmZbKbbQ9zblJOaAqH57Y6apFsxDBR9EkjzL--5BI8NjFqj"/></div></div></div></header><main class="flex-1 flex flex-col relative w-full pt-16 bg-surface pb-28"><div class="flex flex-col w-full pb-8">
+<!-- Greeting & Search Header -->
+<div class="px-margin pt-3 pb-2 flex flex-col gap-3">
+<div class="flex items-center justify-between">
+<div>
+<div class="flex items-center gap-1.5">
+<h1 class="font-headline-xl-mobile text-headline-xl-mobile text-on-surface">Hello, Mia!</h1>
+<span class="text-xl">✨</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Ready to find your cozy match today?</p>
+</div>
+<div class="flex items-center bg-secondary-container/60 px-3 py-1.5 rounded-full shadow-sm">
+<span class="material-symbols-outlined text-secondary text-sm mr-1">loyalty</span>
+<span class="font-label-sm text-label-sm text-on-secondary-container">1,420 Pts</span>
+</div>
+</div>
+<!-- Interactive Pill Category Switcher -->
+<div class="flex items-center p-1 bg-surface-container-high rounded-full shadow-sm" id="gender-switcher">
+<button class="flex-1 py-1.5 rounded-full bg-primary text-on-primary font-label-md text-label-md shadow-sm transition-all text-center" type="button">Women</button>
+<button class="flex-1 py-1.5 rounded-full text-on-surface-variant font-label-md text-label-md transition-all text-center hover:text-on-surface" type="button">Men</button>
+<button class="flex-1 py-1.5 rounded-full text-on-surface-variant font-label-md text-label-md transition-all text-center hover:text-on-surface" type="button">Kids</button>
+<button class="flex-1 py-1.5 rounded-full text-on-surface-variant font-label-md text-label-md transition-all text-center hover:text-on-surface flex items-center justify-center gap-1" type="button">
+<span>Family</span>
+<span class="text-[10px] bg-secondary-container text-secondary px-1.5 rounded-full">AI</span>
+</button>
+</div>
+<!-- Soft Pill Search Input -->
+<div class="relative flex items-center w-full">
+<span class="material-symbols-outlined absolute left-3.5 text-tertiary text-xl pointer-events-none">search</span>
+<input class="w-full pl-10 pr-20 py-2.5 rounded-full bg-surface-container font-body-sm text-body-sm text-on-surface placeholder:text-outline focus:outline-none focus:ring-2 focus:ring-primary/40 shadow-sm transition-all" placeholder="Search dresses, pastel knitwear, sneakers..." type="text"/>
+<div class="absolute right-2 flex items-center gap-1">
+<button aria-label="Voice search" class="w-8 h-8 rounded-full flex items-center justify-center text-primary hover:bg-surface-container-high transition-colors" type="button">
+<span class="material-symbols-outlined text-lg">mic</span>
+</button>
+<button aria-label="Visual camera search" class="w-8 h-8 rounded-full flex items-center justify-center bg-primary-fixed text-on-primary-fixed hover:bg-primary hover:text-on-primary transition-all shadow-sm" type="button">
+<span class="material-symbols-outlined text-lg">photo_camera</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Quick Category Bubbles (Horizontal Scroll) -->
+<div class="w-full overflow-x-auto no-scrollbar py-2">
+<div class="flex items-center gap-3 px-margin min-w-max">
+<!-- Tops -->
+<button class="flex flex-col items-center gap-1.5 group" type="button">
+<div class="w-14 h-14 rounded-full bg-primary-fixed/50 flex items-center justify-center shadow-sm group-hover:scale-105 transition-transform">
+<span class="material-symbols-outlined text-primary text-2xl">checkroom</span>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface">Tops</span>
+</button>
+<!-- Bottoms -->
+<button class="flex flex-col items-center gap-1.5 group" type="button">
+<div class="w-14 h-14 rounded-full bg-secondary-fixed/50 flex items-center justify-center shadow-sm group-hover:scale-105 transition-transform">
+<span class="material-symbols-outlined text-secondary text-2xl">straighten</span>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface">Bottoms</span>
+</button>
+<!-- Dresses -->
+<button class="flex flex-col items-center gap-1.5 group" type="button">
+<div class="w-14 h-14 rounded-full bg-surface-container-high flex items-center justify-center shadow-sm group-hover:scale-105 transition-transform">
+<span class="material-symbols-outlined text-primary-container text-2xl">styler</span>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface">Dresses</span>
+</button>
+<!-- Shoes -->
+<button class="flex flex-col items-center gap-1.5 group" type="button">
+<div class="w-14 h-14 rounded-full bg-primary-fixed-dim/40 flex items-center justify-center shadow-sm group-hover:scale-105 transition-transform">
+<span class="material-symbols-outlined text-primary text-2xl">steps</span>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface">Shoes</span>
+</button>
+<!-- Accessories -->
+<button class="flex flex-col items-center gap-1.5 group" type="button">
+<div class="w-14 h-14 rounded-full bg-secondary-container/60 flex items-center justify-center shadow-sm group-hover:scale-105 transition-transform">
+<span class="material-symbols-outlined text-secondary text-2xl">shopping_bag</span>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface">Bags</span>
+</button>
+<!-- Sets -->
+<button class="flex flex-col items-center gap-1.5 group" type="button">
+<div class="w-14 h-14 rounded-full bg-surface-variant flex items-center justify-center shadow-sm group-hover:scale-105 transition-transform">
+<span class="material-symbols-outlined text-on-surface-variant text-2xl">auto_fix_high</span>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface">Family Sets</span>
+</button>
+</div>
+</div>
+<!-- Featured 3D Virtual Fitting Banner -->
+<div class="px-margin my-3">
+<div class="relative w-full rounded-lg overflow-hidden bg-gradient-to-r from-primary-fixed via-surface-container to-secondary-fixed/50 p-4 shadow-sm flex items-center justify-between">
+<div class="flex-1 pr-2 z-10">
+<div class="inline-flex items-center gap-1 px-2.5 py-0.5 rounded-full bg-surface-container-lowest text-primary font-label-sm text-label-sm shadow-sm mb-1.5">
+<span class="material-symbols-outlined text-xs">arrows_outward</span>
+<span>New AI Feature</span>
+</div>
+<h2 class="font-headline-sm text-headline-sm text-on-surface leading-tight">3D Virtual Fitting Room</h2>
+<p class="font-body-sm text-body-sm text-on-surface-variant mt-1 mb-3 line-clamp-2">Preview real-time drape, family color palettes, and matching chibi outfits instantly!</p>
+<button class="inline-flex items-center gap-1.5 px-4 py-2 rounded-full bg-primary text-on-primary font-label-md text-label-md shadow-md active:scale-95 transition-transform" type="button">
+<span>Try Outfits in 3D</span>
+<span class="material-symbols-outlined text-sm">arrow_forward</span>
+</button>
+</div>
+<div class="w-24 h-24 rounded-full bg-surface-container-lowest/80 p-1 shadow-sm flex items-center justify-center shrink-0 relative overflow-hidden">
+<img class="w-full h-full object-cover rounded-full" data-alt="Chibi 3D stylized cute animated miniature doll avatars representing mother father and little daughter posing happily wearing matching pastel lavender and cream outfits with smiling faces and soft dreamscape aesthetic" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDZZFa3AJcN-1faH8wCdk6YgETs7JDjJHff7W7efmM5koiiPZ4xmM-WDCGN-v31QBTytNXSgZ7cIiY1UC6ewLtvV4w9G7XBZwPJHlDrlPbQ8fCbZU2KeErjaCmsineRwwoM6VCnx55WiQHCePsovTdMIODsCfYVW-LhYzTUcORyu8hGsjKHbHqu39BvY0J0IWVuyGKJW-Ir5fBkxtAEn2SX_VIlNml1WMPvbwFq_4_WSn08REGpf7g_"/>
+<span class="absolute -top-1 -right-1 text-base">✨</span>
+</div>
+</div>
+</div>
+<!-- Picked for You (AI Style Match) -->
+<div class="px-margin mt-3 mb-2 flex items-center justify-between">
+<div>
+<div class="flex items-center gap-1.5">
+<h2 class="font-headline-md text-headline-md text-on-surface">Picked for You</h2>
+<span class="text-xs bg-primary-fixed text-primary px-2 py-0.5 rounded-full font-label-sm">AI Match</span>
+</div>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Tuned to your soft pastel &amp; casual preferences</p>
+</div>
+<button class="font-label-md text-label-md text-primary flex items-center hover:underline" type="button">
+      View All
+      <span class="material-symbols-outlined text-sm">chevron_right</span>
+</button>
+</div>
+<!-- Dual Column Recommendations -->
+<div class="px-margin grid grid-cols-2 gap-gutter mb-5">
+<!-- Item 1 -->
+<div class="flex flex-col bg-surface-container-lowest rounded-lg p-2.5 shadow-sm relative group">
+<div class="relative w-full aspect-[4/5] rounded-DEFAULT overflow-hidden bg-surface-container-low mb-2">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" data-alt="Soft lavender knitted cable cardigan folded neatly on a warm pastel background with puffy pillowy texture cozy morning sunlight and soft aesthetic styling" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBhpg1tFfHebHAPsN7gMsumZp3YF95tKXiZ293d1LgJ1U7U1A8V4EmBVqAHzMmHquABHCkoLaxV6MeN-Og5vDpgs8JshOhYoB9Zu8I-xqQDLCthTtB1xMUPitO63Ql2Zw6A38aEA6V8_xv7nybIcnJBFHrbbUBlbMe1iUnTPYIHVG0iBeguvhFWkK4WE4dsM9glFPcPbxETYi6nfayX8oslZtSGqyXxHF1k5n093t4Yn2hZY816rlUO"/>
+<span class="absolute top-2 left-2 px-2 py-0.5 rounded-full bg-primary/90 text-on-primary font-label-sm text-[10px] backdrop-blur-xs flex items-center gap-0.5">
+<span class="material-symbols-outlined text-[10px]">auto_awesome</span> 98% Match
+        </span>
+<button aria-label="Save to wishlist" class="absolute top-2 right-2 w-7 h-7 rounded-full bg-surface-container-lowest/90 backdrop-blur-xs text-secondary flex items-center justify-center shadow-sm active:scale-90 transition-transform" type="button">
+<span class="material-symbols-outlined text-base" style="font-variation-settings: 'FILL' 1;">favorite</span>
+</button>
+</div>
+<div class="flex items-center justify-between gap-1">
+<h3 class="font-label-lg text-label-lg text-on-surface truncate">Lilac Cable Knit</h3>
+<span class="font-label-md text-label-md text-primary shrink-0">$48.00</span>
+</div>
+<p class="font-body-sm text-[11px] text-tertiary mt-0.5 line-clamp-1">Matches your love for pastel textures</p>
+<div class="mt-2 flex items-center justify-between pt-1">
+<div class="flex items-center text-secondary text-xs">
+<span class="material-symbols-outlined text-sm text-amber-500" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-label-sm text-[11px] text-on-surface-variant ml-0.5">4.9 (128)</span>
+</div>
+<button class="w-7 h-7 rounded-full bg-primary-fixed flex items-center justify-center text-on-primary-fixed hover:bg-primary hover:text-on-primary transition-colors" type="button">
+<span class="material-symbols-outlined text-sm">add</span>
+</button>
+</div>
+</div>
+<!-- Item 2 -->
+<div class="flex flex-col bg-surface-container-lowest rounded-lg p-2.5 shadow-sm relative group">
+<div class="relative w-full aspect-[4/5] rounded-DEFAULT overflow-hidden bg-surface-container-low mb-2">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" data-alt="Blush pink wide leg pleated high waisted pastel trousers against clean pastel studio backdrop soft lighting tailored fabric texture" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCg3Afya-YT7p_xmPATjqWAhc7GAre4EsYdAJG-Eb5a38ptVCCtE1kY1AiGNtUX3wI3-UDBOWgRRaMtHvC0XgAu2BuPRw3IaR0YpplmUQEVqbshgOeHI6wNwBx5dJ7EcSfHVBhhrPzmxcg1wKq0JdnRRr_vlMQAOkBBWEKmdrcuIbNXhpZSS88kBkzsWC_AHc87afGGKsVpm_v9uMOxFQmviY_oIN5C5N7AW4b6IE--1vr0e4DJYr2i"/>
+<span class="absolute top-2 left-2 px-2 py-0.5 rounded-full bg-secondary/90 text-on-secondary font-label-sm text-[10px] backdrop-blur-xs flex items-center gap-0.5">
+<span class="material-symbols-outlined text-[10px]">auto_awesome</span> 95% Match
+        </span>
+<button aria-label="Save to wishlist" class="absolute top-2 right-2 w-7 h-7 rounded-full bg-surface-container-lowest/90 backdrop-blur-xs text-on-surface-variant flex items-center justify-center shadow-sm active:scale-90 transition-transform" type="button">
+<span class="material-symbols-outlined text-base">favorite</span>
+</button>
+</div>
+<div class="flex items-center justify-between gap-1">
+<h3 class="font-label-lg text-label-lg text-on-surface truncate">Blush Pleated Pants</h3>
+<span class="font-label-md text-label-md text-primary shrink-0">$52.00</span>
+</div>
+<p class="font-body-sm text-[11px] text-tertiary mt-0.5 line-clamp-1">Pairs with 4 tops in your saved closet</p>
+<div class="mt-2 flex items-center justify-between pt-1">
+<div class="flex items-center text-secondary text-xs">
+<span class="material-symbols-outlined text-sm text-amber-500" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="font-label-sm text-[11px] text-on-surface-variant ml-0.5">4.8 (89)</span>
+</div>
+<button class="w-7 h-7 rounded-full bg-primary-fixed flex items-center justify-center text-on-primary-fixed hover:bg-primary hover:text-on-primary transition-colors" type="button">
+<span class="material-symbols-outlined text-sm">add</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Complete the Look (AI Outfit Pairing Coordinated Bundle) -->
+<div class="px-margin my-3">
+<div class="bg-surface-container-low rounded-lg p-4 shadow-sm relative overflow-hidden">
+<!-- Glow ambient backdrop -->
+<div class="absolute -right-10 -bottom-10 w-44 h-44 rounded-full bg-secondary-fixed/40 blur-2xl pointer-events-none"></div>
+<div class="flex items-center justify-between mb-3">
+<div class="flex items-center gap-2">
+<div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center text-on-primary shadow-sm">
+<span class="material-symbols-outlined text-lg">checkroom</span>
+</div>
+<div>
+<h2 class="font-headline-sm text-headline-sm text-on-surface leading-snug">AI Outfit Bundle</h2>
+<span class="font-label-sm text-[11px] text-primary">Harmonized Color Harmony (Save 15%)</span>
+</div>
+</div>
+<span class="font-label-md text-label-md bg-secondary-container text-on-secondary-container px-2.5 py-1 rounded-full">
+          -$25.50 OFF
+        </span>
+</div>
+<!-- 4-Piece Bundle Strip -->
+<div class="grid grid-cols-4 gap-2 mb-3.5">
+<div class="flex flex-col items-center">
+<div class="w-full aspect-square rounded-DEFAULT bg-surface-container-lowest p-1 shadow-xs overflow-hidden">
+<img class="w-full h-full object-cover rounded-DEFAULT" data-alt="Chibi style lavender button up relaxed shirt with collar doll aesthetic light purple apparel flat lay" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCXfts7VglAVe66ZLbHAuSSQ3Ami0oexb5oEedDqiGWkEMyMWMJFHuyJjY0VEaPb9DDXj4h4j8SIcjZr41wri4fWgy_P06ACY4UrGrqJUFvnSiIoB3DCRmfmqe2reNMM005DnsHVuJZzZj00xQMtzagIrBMMbO29Y6Ang3jz5hbbMWO4D_m5dtFXJzCMTi5nXFDPLU_9qN2V_vng0DV9phZ8hjse5yrPiC9f7OhTutZswHZG7dZL26z"/>
+</div>
+<span class="font-label-sm text-[10px] text-on-surface truncate mt-1">Overshirt</span>
+</div>
+<div class="flex flex-col items-center">
+<div class="w-full aspect-square rounded-DEFAULT bg-surface-container-lowest p-1 shadow-xs overflow-hidden">
+<img class="w-full h-full object-cover rounded-DEFAULT" data-alt="Cream tailored straight leg trousers with soft folds pastel aesthetic cute clothing item" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBHxOuPv293kXPMiTCHGWXP-9beLlDJIf8OfgvsNF--DfbceXKlWGnylWXRBwBx8Q7kJc2J3-M7LzHkfk2niBUGtBBr46MuKnsHRJ5jIH3_GAybIyb3MYXx2k479tHCJRAnUHBLgkmtEGBVoihISwslH6vcVesSAk7UdqNRjVgXznLi89ohqfchTJb-ubA02_ooxvgz2HcLgU0xKUfbxnSU5eE3PmmmKc166Z59cUccQ0kOjbV5GDoK"/>
+</div>
+<span class="font-label-sm text-[10px] text-on-surface truncate mt-1">Cream Slacks</span>
+</div>
+<div class="flex flex-col items-center">
+<div class="w-full aspect-square rounded-DEFAULT bg-surface-container-lowest p-1 shadow-xs overflow-hidden">
+<img class="w-full h-full object-cover rounded-DEFAULT" data-alt="Pastel lilac and cream chunky sneaker with heart accent cute doll shoes 3D render look" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAH5CPFQEY-x2w7PceAXpdha76PtU5UCvaFyDMd0X6QQbhM2qTyiQqGHSNSKJhkYIHnmedX0AC9zZQIAA2fiBHdlM2eohmPovABjs89IZy0E_Xc_IZYg4YRnElzj4xvL56h8A76uYevxcmGrxalzfBwYTzxWT1pf4wkkRgOrU_xZfoDFYU0gVDq8TTffbfcaTus47JbQv2Zb0kUsprYwKaIz0CJpXhOQ_XmqQ2zF_SladCzqzUCqWZb"/>
+</div>
+<span class="font-label-sm text-[10px] text-on-surface truncate mt-1">Lilac Kicks</span>
+</div>
+<div class="flex flex-col items-center">
+<div class="w-full aspect-square rounded-DEFAULT bg-surface-container-lowest p-1 shadow-xs overflow-hidden">
+<img class="w-full h-full object-cover rounded-DEFAULT" data-alt="Mini cream quilted purse handbag with gold heart buckle clasp cute pastel doll accessory" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBqyJ43KcktxKG2lqFTW-hQUq5eyTZKtpMwUN26Ywif4srZO5m-lnttKw7Z_rKFxsijvpWzOfRdHhtE2Q22AtaHEwOS2w7bDDYs_4Q9kbeQF_7ZytXwBcOp1oPDwLRXJDLYRfXZD4GCSDYwZwZWOCGZepx-Adr4hKswWIEwt7LxPAWO5iciX72Go3pkEERcQjvpzdJ33hAeidVL21cGviSho9sMLVbduKwQn-6drf5yupqf2Majidx5"/>
+</div>
+<span class="font-label-sm text-[10px] text-on-surface truncate mt-1">Heart Bag</span>
+</div>
+</div>
+<!-- Price & Actions -->
+<div class="flex items-center justify-between pt-2">
+<div>
+<span class="font-body-sm text-[11px] text-on-surface-variant line-through">$170.50</span>
+<div class="font-headline-sm text-headline-sm text-primary font-bold leading-none">$145.00</div>
+</div>
+<div class="flex items-center gap-2">
+<button class="px-3 py-2 rounded-full bg-surface-container text-on-surface font-label-md text-label-md hover:bg-surface-container-high transition-colors flex items-center gap-1" type="button">
+<span class="material-symbols-outlined text-sm">arrows_outward</span>
+<span>3D Try</span>
+</button>
+<button class="px-4 py-2 rounded-full bg-primary text-on-primary font-label-md text-label-md shadow-sm active:scale-95 transition-transform flex items-center gap-1.5" type="button">
+<span class="material-symbols-outlined text-sm">shopping_bag</span>
+<span>Add Bundle</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+<!-- Trending This Week (Horizontal Card Carousel) -->
+<div class="mt-4">
+<div class="px-margin flex items-center justify-between mb-2.5">
+<div class="flex items-center gap-1.5">
+<span class="text-base">🔥</span>
+<h2 class="font-headline-md text-headline-md text-on-surface">Trending This Week</h2>
+</div>
+<span class="font-label-sm text-label-sm text-secondary bg-secondary-fixed/50 px-2 py-0.5 rounded-full">Top 10</span>
+</div>
+<div class="w-full overflow-x-auto no-scrollbar pb-2">
+<div class="flex items-center gap-3 px-margin min-w-max">
+<!-- Trend 1 -->
+<div class="w-44 bg-surface-container-lowest rounded-lg p-2.5 shadow-sm flex flex-col group">
+<div class="relative w-full aspect-square rounded-DEFAULT overflow-hidden bg-surface-container-low mb-2">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" data-alt="Chic pillowy soft quilted cloud tote bag in pale cream and blush pink colors resting on wooden floor soft daylight pastel aesthetic" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDcR-Yz_uaFCWwZX0Bi0t9E5UBVTcfjSNkCtX8wqNGeYFOylmIrJj1bLsV53bIpeqGSAYezocx4W8brVgu87IR35w-5lbBYd-25bKTKjJhLAHDfhFLDKuPMxCXpcDET4M709oS3oezAKrhvWgqsFHhpJknfHBOgTYOKti63dQ0N80f2pYK9QczotBDuS1sregu-NYs58F1SU_mT0TD6zpLgSMk1vkRYISRX9827kCA7EHmjlCQDUYXG"/>
+<span class="absolute top-1.5 left-1.5 px-2 py-0.5 rounded-full bg-primary-fixed text-on-primary-fixed font-label-sm text-[10px]">
+              #1 Most Loved
+            </span>
+</div>
+<h3 class="font-label-lg text-label-lg text-on-surface truncate">Soft Cloud Puffer Tote</h3>
+<p class="font-body-sm text-[11px] text-tertiary">1.8k tried this week</p>
+<div class="mt-2 flex items-center justify-between">
+<span class="font-headline-sm text-sm text-primary font-bold">$38.00</span>
+<button class="w-7 h-7 rounded-full bg-surface-container flex items-center justify-center text-on-surface hover:bg-primary hover:text-on-primary transition-colors" type="button">
+<span class="material-symbols-outlined text-sm">add_shopping_cart</span>
+</button>
+</div>
+</div>
+<!-- Trend 2 -->
+<div class="w-44 bg-surface-container-lowest rounded-lg p-2.5 shadow-sm flex flex-col group">
+<div class="relative w-full aspect-square rounded-DEFAULT overflow-hidden bg-surface-container-low mb-2">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" data-alt="Trendy pastel lilac platform sneaker with heart stitched detailing plush foam sole street style chic apparel product photography" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCvsfBvWyMRSWaBeeFxE9XqOLeCKwIve8OQCU9jthvXvvmZR0zRurSX3LPUAsrRJzQJdIJE7uwUHAu_sknKketl8nvJL-eOvAgfqfZoP4gLg87KSe3g4ohevhLbI4wnVWQQs-1Fz3X18QP-FMIfEDZQN3BRImrrEShliK4wl6vS0rVHlqtqKALPWuhOeWDO-6609ckiUU9PWUblKEGDLnlHksIs_oyFGARxFJIP3Q9bW1opiu6SRmT2"/>
+<span class="absolute top-1.5 left-1.5 px-2 py-0.5 rounded-full bg-secondary-container text-on-secondary-container font-label-sm text-[10px]">
+              Viral Look
+            </span>
+</div>
+<h3 class="font-label-lg text-label-lg text-on-surface truncate">Pastel Chunky Kicks</h3>
+<p class="font-body-sm text-[11px] text-tertiary">94% Family Match</p>
+<div class="mt-2 flex items-center justify-between">
+<span class="font-headline-sm text-sm text-primary font-bold">$64.00</span>
+<button class="w-7 h-7 rounded-full bg-surface-container flex items-center justify-center text-on-surface hover:bg-primary hover:text-on-primary transition-colors" type="button">
+<span class="material-symbols-outlined text-sm">add_shopping_cart</span>
+</button>
+</div>
+</div>
+<!-- Trend 3 -->
+<div class="w-44 bg-surface-container-lowest rounded-lg p-2.5 shadow-sm flex flex-col group">
+<div class="relative w-full aspect-square rounded-DEFAULT overflow-hidden bg-surface-container-low mb-2">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" data-alt="Little girl cute ruffled sleeve pastel pink mini dress with bow belt chibi doll fashion aesthetic studio photo" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDh8A21AoytvRwwoJHmzUWUxZoNK9_MUOgQvfwHkYhbtDsPrvfueiweNfCNoFoZxhgiOV5anY1_yc6lq6cGegNcBkzXXr5wchkWb58KL-xt8MToO9jQlb5ivhVa2VSqqFwWf-XDY-mv7CVAYJMNV2vR37Q8TQGu6BYsBYhYp7-ZbTMJ9WfSxrCLmimEa5eXe1TAvKeFBXUH2IW0jMocRDtXSQr85C-bxBk6tqbr15erRIZD2_-GaEyb"/>
+<span class="absolute top-1.5 left-1.5 px-2 py-0.5 rounded-full bg-primary-fixed text-on-primary-fixed font-label-sm text-[10px]">
+              Kids Hit
+            </span>
+</div>
+<h3 class="font-label-lg text-label-lg text-on-surface truncate">Ruffle Mini Sundress</h3>
+<p class="font-body-sm text-[11px] text-tertiary">Matches Mia's avatar</p>
+<div class="mt-2 flex items-center justify-between">
+<span class="font-headline-sm text-sm text-primary font-bold">$34.00</span>
+<button class="w-7 h-7 rounded-full bg-surface-container flex items-center justify-center text-on-surface hover:bg-primary hover:text-on-primary transition-colors" type="button">
+<span class="material-symbols-outlined text-sm">add_shopping_cart</span>
+</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- AI StyleMate Floating Quick-Consultation Banner -->
+<div class="px-margin mt-4">
+<div class="bg-gradient-to-r from-secondary-container/50 via-surface-container-high to-primary-fixed/40 rounded-lg p-3.5 shadow-sm flex items-center justify-between">
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 rounded-full bg-primary text-on-primary flex items-center justify-center shrink-0 shadow-sm animate-pulse">
+<span class="material-symbols-outlined text-xl">smart_toy</span>
+</div>
+<div>
+<h4 class="font-label-lg text-label-lg text-on-surface">Need quick outfit advice?</h4>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Ask StyleMate to pair items from your bag</p>
+</div>
+</div>
+<button class="px-3.5 py-1.5 rounded-full bg-surface-container-lowest text-primary font-label-md text-label-md shadow-sm hover:bg-primary hover:text-on-primary transition-colors" type="button">
+        Chat
+      </button>
+</div>
+</div>
+</div>
+<script>
+  // Simple interactive segment switcher micro-interaction
+  const switcher = document.getElementById('gender-switcher');
+  if (switcher) {
+    const buttons = switcher.querySelectorAll('button');
+    buttons.forEach((btn) => {
+      btn.addEventListener('click', () => {
+        buttons.forEach((b) => {
+          b.className = 'flex-1 py-1.5 rounded-full text-on-surface-variant font-label-md text-label-md transition-all text-center hover:text-on-surface flex items-center justify-center gap-1';
+        });
+        btn.className = 'flex-1 py-1.5 rounded-full bg-primary text-on-primary font-label-md text-label-md shadow-sm transition-all text-center flex items-center justify-center gap-1';
+      });
+    });
+  }
+</script></main><nav class="fixed bottom-0 left-0 right-0 z-50 pb-safe bg-surface/90 backdrop-blur-xl shadow-[0_-8px_24px_rgba(103,81,141,0.08)]" data-active-classes="text-primary font-bold bg-primary-fixed/60 shadow-[0_4px_14px_rgba(103,81,141,0.18)]"><div class="flex items-center justify-around h-16 px-space-xs"><a aria-current="page" class="flex flex-col items-center justify-center min-w-[56px] h-12 rounded-full transition-all text-primary font-bold bg-primary-fixed/60 shadow-[0_4px_14px_rgba(103,81,141,0.18)]" data-path="home" href="#"><span class="material-symbols-outlined text-[22px]">auto_awesome</span><span class="font-label-sm text-[10px] mt-0.5">Home</span></a><a class="flex flex-col items-center justify-center min-w-[56px] h-12 rounded-full text-on-surface-variant transition-all" data-path="discover" href="#"><span class="material-symbols-outlined text-[22px]">grid_view</span><span class="font-label-sm text-[10px] mt-0.5">Discover</span></a><a class="flex flex-col items-center justify-center px-3 h-12 rounded-full text-on-surface-variant transition-all relative" data-path="pair-outfits" href="#"><div class="flex items-center gap-1"><span class="material-symbols-outlined text-[22px]">checkroom</span></div><span class="font-label-sm text-[10px] mt-0.5">AI Pair</span></a><a class="flex flex-col items-center justify-center min-w-[56px] h-12 rounded-full text-on-surface-variant transition-all" data-path="virtual-try-on" href="#"><span class="material-symbols-outlined text-[22px]">arrows_outward</span><span class="font-label-sm text-[10px] mt-0.5">Try-On</span></a><a class="flex flex-col items-center justify-center min-w-[56px] h-12 rounded-full text-on-surface-variant transition-all" data-path="profile" href="#"><span class="material-symbols-outlined text-[22px]">favorite</span><span class="font-label-sm text-[10px] mt-0.5">Profile</span></a></div></nav></body></html>

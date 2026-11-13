@@ -1,0 +1,208 @@
+---
+name: Pastel Playful Fashion
+colors:
+  surface: '#fef7ff'
+  surface-dim: '#e2d5f1'
+  surface-bright: '#fef7ff'
+  surface-container-lowest: '#ffffff'
+  surface-container-low: '#faf0ff'
+  surface-container: '#f5eaff'
+  surface-container-high: '#f0e3ff'
+  surface-container-highest: '#ebddfa'
+  on-surface: '#1f182c'
+  on-surface-variant: '#49454f'
+  inverse-surface: '#352d42'
+  inverse-on-surface: '#f7edff'
+  outline: '#7b7580'
+  outline-variant: '#cbc4d0'
+  surface-tint: '#69538f'
+  primary: '#67518d'
+  on-primary: '#ffffff'
+  primary-container: '#8069a7'
+  on-primary-container: '#fffbff'
+  inverse-primary: '#d5bbff'
+  secondary: '#80515b'
+  on-secondary: '#ffffff'
+  secondary-container: '#ffc2cd'
+  on-secondary-container: '#7b4c56'
+  tertiary: '#5f596e'
+  on-tertiary: '#ffffff'
+  tertiary-container: '#787187'
+  on-tertiary-container: '#fffbff'
+  error: '#ba1a1a'
+  on-error: '#ffffff'
+  error-container: '#ffdad6'
+  on-error-container: '#93000a'
+  primary-fixed: '#ecdcff'
+  primary-fixed-dim: '#d5bbff'
+  on-primary-fixed: '#240d47'
+  on-primary-fixed-variant: '#513c76'
+  secondary-fixed: '#ffd9df'
+  secondary-fixed-dim: '#f3b7c2'
+  on-secondary-fixed: '#331019'
+  on-secondary-fixed-variant: '#663a43'
+  tertiary-fixed: '#e8def8'
+  tertiary-fixed-dim: '#ccc2dc'
+  on-tertiary-fixed: '#1e192b'
+  on-tertiary-fixed-variant: '#4a4458'
+  background: '#fef7ff'
+  on-background: '#1f182c'
+  surface-variant: '#ebddfa'
+typography:
+  headline-xl:
+    fontFamily: Quicksand
+    fontSize: 34px
+    fontWeight: '700'
+    lineHeight: 42px
+  headline-xl-mobile:
+    fontFamily: Quicksand
+    fontSize: 26px
+    fontWeight: '700'
+    lineHeight: 34px
+  headline-lg:
+    fontFamily: Quicksand
+    fontSize: 24px
+    fontWeight: '700'
+    lineHeight: 32px
+  headline-md:
+    fontFamily: Quicksand
+    fontSize: 20px
+    fontWeight: '600'
+    lineHeight: 28px
+  headline-sm:
+    fontFamily: Quicksand
+    fontSize: 18px
+    fontWeight: '600'
+    lineHeight: 24px
+  body-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 16px
+    fontWeight: '400'
+    lineHeight: 24px
+  body-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 14px
+    fontWeight: '400'
+    lineHeight: 20px
+  body-sm:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 12px
+    fontWeight: '400'
+    lineHeight: 18px
+  label-lg:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 14px
+    fontWeight: '700'
+    lineHeight: 20px
+  label-md:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 12px
+    fontWeight: '600'
+    lineHeight: 16px
+  label-sm:
+    fontFamily: Plus Jakarta Sans
+    fontSize: 11px
+    fontWeight: '600'
+    lineHeight: 14px
+rounded:
+  sm: 0.5rem
+  DEFAULT: 1rem
+  md: 1.5rem
+  lg: 2rem
+  xl: 3rem
+  full: 9999px
+spacing:
+  gutter: 1rem
+  margin: 1.25rem
+  space-xs: 0.25rem
+  space-sm: 0.5rem
+  space-md: 1rem
+  space-lg: 1.5rem
+  space-xl: 2.25rem
+---
+
+## Brand & Style
+
+The design system establishes a whimsical, affectionate, and tactile shopping universe inspired by doll-scale charm, soft toy textures, and contemporary pastel streetwear. Built for families, young trendsetters, and Gen Z aesthetic shoppers browsing for Men, Women, and Kids styles, the experience balances toy-like joy with polished commercial utility.
+
+The aesthetic fuses **Soft Tactile Playfulness** with **Modern Clean Mobile E-Commerce**:
+- **Plump & Cushioned UI**: Surfaces, buttons, and badges carry soft pill shapes and puffy dimensionality reminiscent of stitched garments and cloud-like foam padding.
+- **Warm Dreamscape Palette**: Gentle lavender, blushing rose, warm vanilla cream, and soft lilac form a cozy base, avoiding sterile digital whites.
+- **Warm Human Contrast**: Text and icons leverage deep aubergine-charcoal rather than harsh pure black, preserving warmth while securing full WCAG AA legibility across small handheld screens.
+
+## Colors
+
+The palette directly references the chibi plush aesthetic, using balanced confectionery pastels alongside accessible dark ink tones.
+
+- **Primary (`#9D85C5`)**: Sweet Wisteria Lavender. Used for key call-to-actions, active navigation markers, selection rings, and core interactive states.
+- **Secondary (`#F7BAC5`)**: Petal Blush Pink. Used for favorites, romantic tags, promotional highlights, badge pips, and playful accent cards.
+- **Tertiary (`#E8DEF8`)**: Soft Cloud Lilac. Deployed as interactive hover/pressed states, soft chip surfaces, and secondary button backgrounds.
+- **Neutral Base (`#2D253A`)**: Deep Aubergine Charcoal. Replaces standard `#000000` to deliver crisp typographic hierarchy, deep borders, and accessible clarity without cold severity.
+- **Surface Foundations**:
+  - App Canvas: Cream Vanilla (`#FFFDF9`)
+  - Elevated Cards & Sheets: Crisp Warm White (`#FFFFFF`) with subtle Cream Bordering (`#F8F4EE`)
+  - Inset Fields & Muted Dividers: Lavender Pearl (`#F3EEF9`)
+
+## Typography
+
+The type scale combines the rounded, buoyant geometry of **Quicksand** for headlines and expressive promotional banners with the clean readability and balanced horizontal rhythm of **Plus Jakarta Sans** for body copy, micro-interactions, prices, and catalog metadata.
+
+- **Headlines (Quicksand)**: Set generously with rounded terminals. Used in product collection names, promotional greetings, AI outfit suggestions, and dialog headers.
+- **Body & Labels (Plus Jakarta Sans)**: Ensures instant scanability of product descriptions, size guides, checkout details, and filter chips. 
+- **Prices & Currency**: Always set in `label-lg` with `700` weight to stand out playfully within the pastel canvas.
+
+## Layout & Spacing
+
+The layout is built for fluid touch interaction on mobile screens, utilizing a responsive 4-column system on phones that shifts to 8 and 12 columns on tablets and wider viewports.
+
+- **Safe Zones & Margins**: Canvas edges enforce a consistent `1.25rem` (20px) margin, creating an airy frame around content cards.
+- **Product Card Grids**: Dual-column feeds use a `1rem` (16px) gutter, providing ample space for floating badge overlays and heart icon taps without accidental touches.
+- **Horizontal Carousels**: Story cards, recently viewed items, and "Style with Family" bundles flow across the screen with right padding bleed to invite horizontal thumb swipes.
+- **Docked Thumb Navigation**: Primary cart checkout and segment selectors sit docked along the bottom safe area with `space-md` internal padding.
+
+## Elevation & Depth
+
+Visual depth is expressed through **puffy, colored ambient shadows** and **cushioned pill layers**, avoiding sharp grayscale drop shadows.
+
+- **Level 0 (Flat / Canvas)**: Vanilla cream ground (`#FFFDF9`) used as the resting base.
+- **Level 1 (Card & Shelf)**: White surfaces elevated by an ultra-soft tinted shadow: `box-shadow: 0 4px 18px rgba(157, 133, 197, 0.12)`.
+- **Level 2 (Floating Action & Segment Bars)**: Pill tabs and primary buy buttons: `box-shadow: 0 8px 24px rgba(157, 133, 197, 0.22)`.
+- **Level 3 (Modal Bottom Sheets & AI Floating Assist)**: Docked styling assistants and quick-shop drawers: `box-shadow: 0 -8px 32px rgba(45, 37, 58, 0.08)`.
+- **Subtle Inner Glow**: Active pill selectors feature an inner highlight `inset 0 1px 0 rgba(255, 255, 255, 0.6)` for a glossy, marshmallow-like tactile quality.
+
+## Shapes
+
+The design system embraces an ultra-soft, rounded physical language (`roundedness: 3`):
+
+- **Pill Geometry (9999px / `rounded-full`)**: Applied to all category switchers (Men / Women / Kids), size selectors, action buttons, price badges, and bottom navigation pill containers.
+- **Plush Cards (24px / 1.5rem)**: Product listing cards, outfit moodboards, and promotional highlight banners feature deep 24px corner radii.
+- **Inner Controls (16px / 1rem)**: Text inputs, quantity steppers, and thumbnail wrappers use softened 16px corners to remain cohesive with the overall silhouette.
+
+## Components
+
+### Category Segment Controller (Women / Men / Kids)
+- Fixed or sticky pill-bar container floating above the product feed with a soft Lilac tint (`#F3EEF9`).
+- Active segment glides with a spring animation, filling with Lavender (`#9D85C5`), pure white text, and a puffy shadow.
+- Inactive segments feature Charcoal text (`#2D253A`) with subtle 60% opacity.
+
+### Buttons & CTAs
+- **Primary Action ("Add to Bag", "Style Me")**: Fully rounded pill, saturated Lavender (`#9D85C5`), white text (`#FFFFFF`), `16px` vertical padding, with a subtle bouncy scale down (`transform: scale(0.97)`) on press.
+- **Secondary Action ("Try AI Match", "Wishlist")**: Blush Pink background (`#FFDDE2`) with Charcoal text (`#2D253A`) or sheer border outline.
+- **Floating Heart / Like Button**: Pure white circle (`44px × 44px`) with soft peach/pink drop shadow and an animated spring heart icon.
+
+### Product & Moodboard Cards
+- White background with `24px` rounded corners and faint border (`1px solid #F8F4EE`).
+- Top-right floating tag with pill-radius for discounts or new arrivals (e.g., `#F7BAC5` petal pink chip with white text).
+- Rounded thumbnail container (`20px`) with a soft background gradient tint (`#F8F4EE` to `#FFFDF9`).
+
+### Input Fields & Search Bars
+- Full pill radius search bar with `#F3EEF9` fill, no harsh outer strokes.
+- Lavender placeholder text with an inset sparkle AI icon on the trailing edge.
+
+### Chips & Badges
+- Miniature pill badges (`11px - 12px` font) used for color swatches, size indicators, and eco/fabric tags.
+- Selected state toggles to solid Lavender or Blush Pink with bold contrast.
+
+### AI StyleMate Floating Assistant
+- Floating docked widget at the bottom right rendered with a gradient from Petal Pink to Soft Lavender.
+- Features a glowing aura shadow and miniature avatar icon that triggers personalized family or capsule wardrobe recommendations.

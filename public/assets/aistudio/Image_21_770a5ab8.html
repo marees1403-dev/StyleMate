@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" name="viewport"/><meta content="mobile_stack" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700&amp;family=Quicksand:wght@600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{width:100%;margin:0;padding:0;background-color:#fef7ff;}body{overscroll-behavior-y:none;-webkit-tap-highlight-color:transparent;}.pb-safe{padding-bottom:env(safe-area-inset-bottom,16px);}.pt-safe{padding-top:env(safe-area-inset-top,0px);}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config = { darkMode: "class", theme: { extend: { "colors": { "error": "#ba1a1a", "outline": "#7b7580", "on-secondary-fixed-variant": "#663a43", "tertiary-fixed-dim": "#ccc2dc", "on-surface": "#1f182c", "background": "#fef7ff", "primary-fixed": "#ecdcff", "on-tertiary-container": "#fffbff", "error-container": "#ffdad6", "surface-container-high": "#f0e3ff", "primary": "#67518d", "outline-variant": "#cbc4d0", "on-primary": "#ffffff", "on-error": "#ffffff", "on-tertiary": "#ffffff", "on-secondary-fixed": "#331019", "surface": "#fef7ff", "on-tertiary-fixed": "#1e192b", "primary-container": "#8069a7", "surface-variant": "#ebddfa", "surface-container": "#f5eaff", "on-surface-variant": "#49454f", "surface-container-low": "#faf0ff", "secondary-fixed": "#ffd9df", "on-secondary-container": "#7b4c56", "on-primary-container": "#fffbff", "surface-dim": "#e2d5f1", "secondary-container": "#ffc2cd", "surface-container-lowest": "#ffffff", "surface-bright": "#fef7ff", "inverse-primary": "#d5bbff", "tertiary": "#5f596e", "on-error-container": "#93000a", "inverse-surface": "#352d42", "on-background": "#1f182c", "surface-tint": "#69538f", "secondary-fixed-dim": "#f3b7c2", "inverse-on-surface": "#f7edff", "tertiary-fixed": "#e8def8", "on-primary-fixed-variant": "#513c76", "tertiary-container": "#787187", "on-secondary": "#ffffff", "surface-container-highest": "#ebddfa", "on-primary-fixed": "#240d47", "primary-fixed-dim": "#d5bbff", "on-tertiary-fixed-variant": "#4a4458", "secondary": "#80515b" }, "borderRadius": { "DEFAULT": "1rem", "lg": "2rem", "xl": "3rem", "full": "9999px" }, "spacing": { "margin": "1.25rem", "space-md": "1rem", "space-xl": "2.25rem", "space-xs": "0.25rem", "space-sm": "0.5rem", "gutter": "1rem", "space-lg": "1.5rem" }, "fontFamily": { "headline-xl": ["Quicksand"], "label-sm": ["Plus Jakarta Sans"], "headline-md": ["Quicksand"], "body-md": ["Plus Jakarta Sans"], "headline-sm": ["Quicksand"], "headline-lg": ["Quicksand"], "body-lg": ["Plus Jakarta Sans"], "body-sm": ["Plus Jakarta Sans"], "headline-xl-mobile": ["Quicksand"], "label-md": ["Plus Jakarta Sans"], "label-lg": ["Plus Jakarta Sans"] }, "fontSize": { "headline-xl": ["34px", {"lineHeight": "42px", "fontWeight": "700"}], "label-sm": ["11px", {"lineHeight": "14px", "fontWeight": "600"}], "headline-md": ["20px", {"lineHeight": "28px", "fontWeight": "600"}], "body-md": ["14px", {"lineHeight": "20px", "fontWeight": "400"}], "headline-sm": ["18px", {"lineHeight": "24px", "fontWeight": "600"}], "headline-lg": ["24px", {"lineHeight": "32px", "fontWeight": "700"}], "body-lg": ["16px", {"lineHeight": "24px", "fontWeight": "400"}], "body-sm": ["12px", {"lineHeight": "18px", "fontWeight": "400"}], "headline-xl-mobile": ["26px", {"lineHeight": "34px", "fontWeight": "700"}], "label-md": ["12px", {"lineHeight": "16px", "fontWeight": "600"}], "label-lg": ["14px", {"lineHeight": "20px", "fontWeight": "700"}] } } } };</script><style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+<style>
+    body {
+      min-height: max(884px, 100dvh);
+    }
+  </style>
+  </head><body class="bg-surface text-on-surface antialiased flex flex-col min-h-screen selection:bg-secondary-container"><header class="fixed top-0 left-0 right-0 z-50 bg-surface/85 backdrop-blur-xl pt-safe shadow-[0_4px_20px_rgba(103,81,141,0.06)]"><div class="h-16 px-margin flex items-center justify-between"><div class="flex items-center gap-space-xs"><button aria-label="Go back" class="w-11 h-11 rounded-full flex items-center justify-center text-on-surface bg-surface-container-high/60 active:scale-95 transition-all" onclick="history.back()" type="button"><span class="material-symbols-outlined text-xl">arrow_back_ios_new</span></button><img alt="StyleMate AI Logo" class="h-7 w-auto object-contain hidden xs:inline" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDr6WtNWXDRj8SW7j79LpPG41FH1OGTY4GK4i-as2AAcaj8fm_ufib22X13uZwhF7onIQSqMIB1IDf3WuLR8nFYGfLxZjQsQ6rts99bKllIRNTM8K_j5xmnnh7He3TqnGhaIru1q3uUHY6qrC9CHkdqKTQh5TpPqzs0YoP0XQMWyD8uVLFlU-xGnlr3p6Hk92rydkzccxLZfz660BH-xeFBOAA2dNskiT8WTRWzfB1w_2RH431IvAmQ"/></div><h1 class="font-headline-sm text-headline-sm text-on-surface font-bold tracking-tight">Stylemate Ai Admin   Sold Products</h1><div class="flex items-center gap-space-xs"><button aria-label="Shopping Bag" class="relative w-11 h-11 rounded-full flex items-center justify-center text-on-surface hover:bg-surface-container transition-colors" type="button"><span class="material-symbols-outlined text-2xl">shopping_bag</span><span class="absolute top-1.5 right-1.5 min-w-[18px] h-[18px] px-1 bg-secondary text-on-secondary rounded-full font-label-sm text-[10px] leading-[18px] text-center font-bold shadow-[0_2px_6px_rgba(128,81,91,0.35)]">2</span></button><div class="w-11 h-11 flex items-center justify-center"><img alt="Profile" class="w-8 h-8 rounded-full object-cover ring-2 ring-primary-fixed" src="https://lh3.googleusercontent.com/aida-public/AB6AXuB_PD0baHwqEGbcO15Opic0GcTzt6HDBgB_S0D9mEF5yrcc4uWzv46P4JdA4d9oevhEvpohyvSe4XmPKp5kNyovuIAZJ35sCQhBYTuEXVRGyg_7HYiEaa5EEGNFJ002u4laeL5kKXNvoLryqZne6SQ5755JR8Q_OpzZTTrQVFqmBF590P5iTss05-hl8adJd7gLadTcGdmZbKbbQ9zblJOaAqH57Y6apFsxDBR9EkjzL--5BI8NjFqj"/></div></div></div></header><main class="flex-1 flex flex-col relative w-full pt-16 bg-surface pb-safe"><div class="flex flex-col w-full pb-8">
+<!-- Top Admin Welcome & Live Status Banner -->
+<div class="px-margin pt-4 pb-2">
+<div class="bg-gradient-to-r from-surface-container-high via-surface-container-lowest to-surface-container p-4 rounded-lg shadow-sm flex items-center justify-between">
+<div class="flex items-center gap-space-sm min-w-0">
+<div class="w-10 h-10 rounded-full bg-primary-fixed flex items-center justify-center text-on-primary-fixed shadow-sm shrink-0">
+<span class="material-symbols-outlined text-xl">storefront</span>
+</div>
+<div class="min-w-0">
+<div class="flex items-center gap-1.5">
+<span class="w-2 h-2 rounded-full bg-primary animate-pulse shrink-0"></span>
+<p class="font-label-sm text-label-sm text-primary uppercase tracking-wider font-bold">Admin Portal Live</p>
+</div>
+<h2 class="font-headline-sm text-headline-sm text-on-surface truncate">Sales &amp; Units Sold</h2>
+</div>
+</div>
+<button class="flex items-center gap-1 px-3 py-2 rounded-full bg-surface-container-lowest text-on-surface-variant font-label-md text-label-md shadow-sm active:scale-95 transition-all shrink-0" id="exportBtn" type="button">
+<span class="material-symbols-outlined text-base text-primary">download</span>
+<span>Export CSV</span>
+</button>
+</div>
+</div>
+<!-- Date Range Filter Pill Selector (Horizontal Scroll) -->
+<div class="px-margin py-2">
+<div class="flex items-center gap-2 overflow-x-auto no-scrollbar py-1" role="tablist">
+<button class="date-filter px-4 py-2 rounded-full font-label-md text-label-md text-on-surface-variant bg-surface-container-high transition-all shrink-0" data-range="today" type="button">
+        Today
+      </button>
+<button class="date-filter active-filter px-4 py-2 rounded-full font-label-md text-label-md text-on-primary bg-primary shadow-[0_4px_14px_rgba(103,81,141,0.25)] transition-all shrink-0" data-range="week" type="button">
+        This Week
+      </button>
+<button class="date-filter px-4 py-2 rounded-full font-label-md text-label-md text-on-surface-variant bg-surface-container-high transition-all shrink-0" data-range="month" type="button">
+        This Month
+      </button>
+<button class="date-filter px-4 py-2 rounded-full font-label-md text-label-md text-on-surface-variant bg-surface-container-high transition-all shrink-0" data-range="all" type="button">
+        All-Time
+      </button>
+</div>
+</div>
+<!-- Key Metrics Bento Grid (3 Top KPI Cards) -->
+<div class="px-margin py-2 grid grid-cols-1 gap-3">
+<!-- Total Units Sold -->
+<div class="p-4 rounded-lg bg-surface-container-lowest shadow-[0_4px_18px_rgba(157,133,197,0.12)] flex items-center justify-between relative overflow-hidden">
+<div class="absolute -right-4 -bottom-4 w-24 h-24 bg-primary-fixed/30 rounded-full blur-xl pointer-events-none"></div>
+<div class="relative z-10 min-w-0">
+<div class="flex items-center gap-1.5 mb-1">
+<span class="material-symbols-outlined text-base text-primary">checkroom</span>
+<span class="font-label-md text-label-md text-on-surface-variant">Total Units Sold</span>
+</div>
+<p class="font-headline-xl-mobile text-headline-xl-mobile text-on-surface font-bold tracking-tight">3,842 <span class="font-label-lg text-label-lg text-on-surface-variant font-normal">pcs</span></p>
+<div class="flex items-center gap-1 mt-1.5">
+<span class="px-2 py-0.5 rounded-full bg-secondary-fixed text-on-secondary-fixed font-label-sm text-label-sm font-bold flex items-center gap-0.5">
+<span class="material-symbols-outlined text-xs">trending_up</span>+18.4%
+          </span>
+<span class="font-body-sm text-body-sm text-on-surface-variant">vs last week</span>
+</div>
+</div>
+<div class="w-12 h-12 rounded-full bg-surface-container-high flex items-center justify-center text-primary shrink-0 relative z-10 shadow-inner">
+<span class="material-symbols-outlined text-2xl">loyalty</span>
+</div>
+</div>
+<!-- Dual Metric Split Row -->
+<div class="grid grid-cols-2 gap-3">
+<!-- Gross Fashion Revenue -->
+<div class="p-4 rounded-lg bg-surface-container-lowest shadow-[0_4px_18px_rgba(157,133,197,0.12)] flex flex-col justify-between relative overflow-hidden">
+<div class="absolute -top-3 -right-3 w-16 h-16 bg-secondary-container/40 rounded-full blur-lg pointer-events-none"></div>
+<div>
+<div class="w-8 h-8 rounded-full bg-secondary-fixed flex items-center justify-center text-on-secondary-fixed mb-2">
+<span class="material-symbols-outlined text-lg">payments</span>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant block">Gross Revenue</span>
+<p class="font-headline-sm text-headline-sm text-on-surface font-bold mt-0.5">$148,290</p>
+</div>
+<div class="mt-2.5 pt-2 flex items-center justify-between">
+<span class="font-body-sm text-body-sm text-on-surface-variant">Avg. Order</span>
+<span class="font-label-sm text-label-sm font-bold text-on-surface">$116.40</span>
+</div>
+</div>
+<!-- Family Bundle Attachment Rate -->
+<div class="p-4 rounded-lg bg-surface-container-lowest shadow-[0_4px_18px_rgba(157,133,197,0.12)] flex flex-col justify-between relative overflow-hidden">
+<div class="absolute -top-3 -right-3 w-16 h-16 bg-primary-fixed/40 rounded-full blur-lg pointer-events-none"></div>
+<div>
+<div class="w-8 h-8 rounded-full bg-primary-fixed flex items-center justify-center text-on-primary-fixed mb-2">
+<span class="material-symbols-outlined text-lg" style="font-variation-settings: 'FILL' 1;">diversity_1</span>
+</div>
+<span class="font-label-sm text-label-sm text-on-surface-variant block">Bundle Attach</span>
+<p class="font-headline-sm text-headline-sm text-on-surface font-bold mt-0.5">42.8%</p>
+</div>
+<div class="mt-2.5 pt-2 flex items-center justify-between">
+<span class="font-body-sm text-body-sm text-on-surface-variant">Co-Purchase</span>
+<span class="px-1.5 py-0.5 rounded-full bg-surface-container-high text-primary font-label-sm text-label-sm font-bold">+5.2%</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Restock Trigger Alert Banner (Puffy Pill Notification) -->
+<div class="px-margin py-2">
+<div class="p-3.5 rounded-lg bg-secondary-fixed/70 text-on-secondary-fixed flex items-start gap-3 shadow-sm">
+<div class="w-8 h-8 rounded-full bg-secondary text-on-secondary flex items-center justify-center shrink-0 mt-0.5">
+<span class="material-symbols-outlined text-lg">auto_awesome_motion</span>
+</div>
+<div class="flex-1 min-w-0">
+<div class="flex items-center gap-2">
+<span class="font-label-lg text-label-lg font-bold">Restock Trigger Activated</span>
+<span class="px-2 py-0.2 rounded-full bg-surface-container-lowest text-secondary font-label-sm text-[10px] font-bold uppercase tracking-wider">Fast Moving</span>
+</div>
+<p class="font-body-sm text-body-sm mt-0.5 leading-snug">
+          Mohair Cardigan (Size S) and Chunky Sneakers (EU 38) hit re-order threshold. Supplier automated PO generated.
+        </p>
+</div>
+<button aria-label="Review Restock" class="text-on-secondary-fixed active:scale-95 transition-transform p-1" type="button">
+<span class="material-symbols-outlined text-xl">chevron_right</span>
+</button>
+</div>
+</div>
+<!-- Sales Velocity Trend Visual Card (Virtual Try-on Hourly Peaks) -->
+<div class="px-margin py-2">
+<div class="p-4 rounded-lg bg-surface-container-lowest shadow-[0_4px_18px_rgba(157,133,197,0.12)]">
+<div class="flex items-center justify-between mb-3">
+<div class="flex items-center gap-2">
+<div class="w-7 h-7 rounded-full bg-primary-fixed flex items-center justify-center text-primary">
+<span class="material-symbols-outlined text-base">magic_button</span>
+</div>
+<div>
+<h3 class="font-label-lg text-label-lg text-on-surface">Hourly Sales Velocity</h3>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Peaks during AI Virtual Try-On sessions</p>
+</div>
+</div>
+<span class="font-label-sm text-label-sm px-2 py-1 rounded-full bg-surface-container text-primary font-bold">Peak: 8 PM</span>
+</div>
+<!-- Stylized Bar Graph using SVG -->
+<div class="w-full h-24 flex items-end justify-between gap-1.5 pt-2 px-1">
+<!-- 10 AM -->
+<div class="flex-1 flex flex-col items-center gap-1.5 h-full justify-end">
+<div class="w-full bg-surface-container-high rounded-full transition-all" style="height: 28%"></div>
+<span class="font-label-sm text-[10px] text-on-surface-variant">10a</span>
+</div>
+<!-- 12 PM -->
+<div class="flex-1 flex flex-col items-center gap-1.5 h-full justify-end">
+<div class="w-full bg-surface-container-high rounded-full transition-all" style="height: 44%"></div>
+<span class="font-label-sm text-[10px] text-on-surface-variant">12p</span>
+</div>
+<!-- 2 PM -->
+<div class="flex-1 flex flex-col items-center gap-1.5 h-full justify-end">
+<div class="w-full bg-secondary-fixed rounded-full transition-all" style="height: 52%"></div>
+<span class="font-label-sm text-[10px] text-on-surface-variant">2p</span>
+</div>
+<!-- 4 PM -->
+<div class="flex-1 flex flex-col items-center gap-1.5 h-full justify-end">
+<div class="w-full bg-primary-fixed rounded-full transition-all" style="height: 68%"></div>
+<span class="font-label-sm text-[10px] text-on-surface-variant">4p</span>
+</div>
+<!-- 6 PM -->
+<div class="flex-1 flex flex-col items-center gap-1.5 h-full justify-end">
+<div class="w-full bg-primary-fixed rounded-full transition-all" style="height: 82%"></div>
+<span class="font-label-sm text-[10px] text-on-surface-variant">6p</span>
+</div>
+<!-- 8 PM (Peak) -->
+<div class="flex-1 flex flex-col items-center gap-1.5 h-full justify-end relative">
+<span class="absolute -top-3 text-[9px] font-bold text-primary font-label-sm">840</span>
+<div class="w-full bg-primary rounded-full shadow-[0_2px_8px_rgba(103,81,141,0.4)] transition-all" style="height: 100%"></div>
+<span class="font-label-sm text-[10px] text-on-surface font-bold">8p</span>
+</div>
+<!-- 10 PM -->
+<div class="flex-1 flex flex-col items-center gap-1.5 h-full justify-end">
+<div class="w-full bg-primary-fixed rounded-full transition-all" style="height: 60%"></div>
+<span class="font-label-sm text-[10px] text-on-surface-variant">10p</span>
+</div>
+</div>
+<div class="mt-3 pt-2.5 flex items-center justify-between text-on-surface-variant font-body-sm text-body-sm bg-surface-container/50 px-3 py-1.5 rounded-full">
+<span class="flex items-center gap-1">
+<span class="material-symbols-outlined text-sm text-primary">bubble_chart</span> 64% completed via 3D Room Match
+        </span>
+<span class="font-label-sm text-label-sm font-bold text-on-surface">+22m try-on</span>
+</div>
+</div>
+</div>
+<!-- Category Filter Horizontal Strip -->
+<div class="px-margin pt-3 pb-1">
+<div class="flex items-center justify-between mb-2">
+<h3 class="font-headline-sm text-headline-sm text-on-surface">Top Sold Products</h3>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Ranked by Volume</span>
+</div>
+<div class="flex items-center gap-2 overflow-x-auto no-scrollbar py-1">
+<button class="category-chip active-chip px-3.5 py-1.5 rounded-full font-label-md text-label-md text-on-primary bg-primary shadow-sm shrink-0" type="button">
+        All Categories
+      </button>
+<button class="category-chip px-3.5 py-1.5 rounded-full font-label-md text-label-md text-on-surface-variant bg-surface-container-high shrink-0" type="button">
+        Women Tops
+      </button>
+<button class="category-chip px-3.5 py-1.5 rounded-full font-label-md text-label-md text-on-surface-variant bg-surface-container-high shrink-0" type="button">
+        Trousers
+      </button>
+<button class="category-chip px-3.5 py-1.5 rounded-full font-label-md text-label-md text-on-surface-variant bg-surface-container-high shrink-0" type="button">
+        Kids Duo
+      </button>
+<button class="category-chip px-3.5 py-1.5 rounded-full font-label-md text-label-md text-on-surface-variant bg-surface-container-high shrink-0" type="button">
+        Footwear
+      </button>
+</div>
+</div>
+<!-- Detailed Top Sold Products Ranking List -->
+<div class="px-margin py-2 flex flex-col gap-3">
+<!-- Rank 1: Lavender Cloud Mohair Cardigan -->
+<div class="p-3.5 rounded-lg bg-surface-container-lowest shadow-[0_4px_18px_rgba(157,133,197,0.12)] flex gap-3 relative overflow-hidden">
+<div class="w-6 h-6 rounded-full bg-secondary text-on-secondary font-label-sm text-label-sm font-bold flex items-center justify-center shrink-0 mt-1 shadow-sm">
+        1
+      </div>
+<div class="relative w-18 h-20 w-20 rounded-lg overflow-hidden shrink-0 bg-surface-container">
+<img class="w-full h-full object-cover" data-alt="A soft and plush lavender mohair knitted cardigan displayed gracefully on a pastel doll-sized mannequin, warm dreamscape studio lighting with cozy pastel background tones" src="https://lh3.googleusercontent.com/aida-public/AB6AXuC-ha9esiL-EPsvtYkSSRujHK5Rncn5uN9EApvAJjNIW5zKGnVEt-bqU_O2XUe5qQK7XXVByurkNqTkFVloqkqkYsbTXh34_ukWXBVhq9VIalkVVK4_7Xt8OvHBTjGUwbZhwbfvKBeJZNbnAmIAP48DuALn_xgs5yG-YWvu4OJ2L7vy0ah5eL8AyLAABtOGbIWlyz-tN4zlgmG_FT2oE4OF-hkG6g7UTHErtOO2OE_2io3c6k57_IGM"/>
+<div class="absolute bottom-1 right-1 bg-surface/90 backdrop-blur-sm px-1.5 py-0.5 rounded-full font-label-sm text-[10px] text-on-surface flex items-center gap-0.5">
+<span class="material-symbols-outlined text-[11px] text-secondary" style="font-variation-settings: 'FILL' 1;">star</span> 4.9
+        </div>
+</div>
+<div class="flex-1 min-w-0 flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between gap-1">
+<span class="font-label-sm text-[10px] text-primary font-bold tracking-wide uppercase">SKU: SM-TOP-01</span>
+<span class="font-headline-sm text-headline-sm text-on-surface font-bold">$40,416</span>
+</div>
+<h4 class="font-label-lg text-label-lg text-on-surface font-bold leading-tight truncate">Lavender Cloud Mohair Cardigan</h4>
+</div>
+<div class="flex items-center justify-between gap-1 mt-2">
+<span class="px-2 py-0.5 rounded-full bg-primary-fixed text-on-primary-fixed font-label-sm text-label-sm font-bold">
+            842 sold
+          </span>
+<div class="flex items-center gap-1 font-body-sm text-[11px] text-on-surface-variant">
+<span class="material-symbols-outlined text-xs text-primary" style="font-variation-settings: 'FILL' 1;">auto_awesome</span>
+<span>98% AI Match</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Rank 2: Blush Pleated Wide-Leg Trousers -->
+<div class="p-3.5 rounded-lg bg-surface-container-lowest shadow-[0_4px_18px_rgba(157,133,197,0.12)] flex gap-3 relative overflow-hidden">
+<div class="w-6 h-6 rounded-full bg-surface-container-high text-on-surface font-label-sm text-label-sm font-bold flex items-center justify-center shrink-0 mt-1">
+        2
+      </div>
+<div class="relative w-20 h-20 rounded-lg overflow-hidden shrink-0 bg-surface-container">
+<img class="w-full h-full object-cover" data-alt="Chic tailored pleated blush pink wide-leg trousers laid smoothly against soft lilac fabric background, delicate studio styling with warm soft daylight" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBZiCruviMOEcWNuG8oY_2_U59UN8DYcZ9OzC1MQbup4ZF9rcwJ_1JBpx9C6E3DaiiYU5y2BwtzWiulOgybiAf379fWDYUfwcXozY_YNnH2shRXxYwJ4OoKOlfH3sE3I2nbZLoZT1ovB4HyMO3fj6WEMyxEXK2tdu1WoQz4vUpkUeGHhWChtv6NJDRvhuqb_IYHtvCKAYDxupxs4k_kSG-ujryvwTj_5qJbe7WKVSUHTvHp1IvSx4FO"/>
+</div>
+<div class="flex-1 min-w-0 flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between gap-1">
+<span class="font-label-sm text-[10px] text-on-surface-variant font-bold tracking-wide uppercase">SKU: SM-BOT-04</span>
+<span class="font-headline-sm text-headline-sm text-on-surface font-bold">$32,188</span>
+</div>
+<h4 class="font-label-lg text-label-lg text-on-surface font-bold leading-tight truncate">Blush Pleated Wide-Leg Trousers</h4>
+</div>
+<div class="flex items-center justify-between gap-1 mt-2">
+<span class="px-2 py-0.5 rounded-full bg-secondary-fixed text-on-secondary-fixed font-label-sm text-label-sm font-bold">
+            619 sold
+          </span>
+<div class="flex items-center gap-1 font-body-sm text-[11px] text-on-surface-variant">
+<span class="material-symbols-outlined text-xs text-secondary">link</span>
+<span>84% Co-bought</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Rank 3: Pastel Chunky Sneakers -->
+<div class="p-3.5 rounded-lg bg-surface-container-lowest shadow-[0_4px_18px_rgba(157,133,197,0.12)] flex gap-3 relative overflow-hidden">
+<div class="w-6 h-6 rounded-full bg-surface-container-high text-on-surface font-label-sm text-label-sm font-bold flex items-center justify-center shrink-0 mt-1">
+        3
+      </div>
+<div class="relative w-20 h-20 rounded-lg overflow-hidden shrink-0 bg-surface-container">
+<img class="w-full h-full object-cover" data-alt="Designer aesthetic chunky pastel streetwear sneakers featuring lilac and cream marshmallows foam soles, soft dreamscape lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCbnpmptHo6Vvds-wsM5xsULDvPmRN5dUPh7zw-6TN806aZ1FFM8czizVxAkx9i6j3PjfHGFhdGVcIhV_7M3-zjTTfcZgHL75SK471jRoBOdm2Mx9oYjMOEKGa4q6Ii9gMSd4ttJX7kciRvXcV08mjbWt8RX-05rA_FBG3ZwPU3sZ5CenOtJvPttMTShA9vupHGLudPP-lERVIDjFg6FBsPKg4aUfsScbOWt_4ZtF0lxC-liTQ2YEZn"/>
+</div>
+<div class="flex-1 min-w-0 flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between gap-1">
+<span class="font-label-sm text-[10px] text-on-surface-variant font-bold tracking-wide uppercase">SKU: SM-SHO-09</span>
+<span class="font-headline-sm text-headline-sm text-on-surface font-bold">$32,768</span>
+</div>
+<h4 class="font-label-lg text-label-lg text-on-surface font-bold leading-tight truncate">Pastel Chunky Sneakers</h4>
+</div>
+<div class="flex items-center justify-between gap-1 mt-2">
+<span class="px-2 py-0.5 rounded-full bg-primary-fixed text-on-primary-fixed font-label-sm text-label-sm font-bold">
+            512 sold
+          </span>
+<div class="flex items-center gap-1 font-body-sm text-[11px] text-secondary font-semibold">
+<span class="material-symbols-outlined text-xs">child_care</span>
+<span>High Duo Demand</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Rank 4: Family Match Twinning Overalls (Kids) -->
+<div class="p-3.5 rounded-lg bg-surface-container-lowest shadow-[0_4px_18px_rgba(157,133,197,0.12)] flex gap-3 relative overflow-hidden">
+<div class="w-6 h-6 rounded-full bg-surface-container-high text-on-surface font-label-sm text-label-sm font-bold flex items-center justify-center shrink-0 mt-1">
+        4
+      </div>
+<div class="relative w-20 h-20 rounded-lg overflow-hidden shrink-0 bg-surface-container">
+<img class="w-full h-full object-cover" data-alt="Cute miniature denim overalls for kids paired with pastel lilac buttons and heart patches, aesthetic soft toy retail atmosphere" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAf0Adq1IPK67Lxuo7swFfFur6ppH1ts-7VKw9X40NJHjFDsRGOohWHr4ivf6UBzN05Z3Qh8K-dER-N2c-RMeJPu1u3fbO6kgSw-unVOcnCpleKGHmb7jAlSa6hePB8yRBsy6FBQ2RCKwhwy_OoeajeBJqw5lydVEjiLz8KJ95_LyhL-NslIc4dCsyFn-t9Zm7u6U8M3YZrxBkn-9dsJX-IvMJBv-LTIuKmjBeX-I5jDZuYrIUgciqV"/>
+</div>
+<div class="flex-1 min-w-0 flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between gap-1">
+<span class="font-label-sm text-[10px] text-on-surface-variant font-bold tracking-wide uppercase">SKU: SM-KID-12</span>
+<span class="font-headline-sm text-headline-sm text-on-surface font-bold">$18,920</span>
+</div>
+<h4 class="font-label-lg text-label-lg text-on-surface font-bold leading-tight truncate">Family Match Overalls (Kids)</h4>
+</div>
+<div class="flex items-center justify-between gap-1 mt-2">
+<span class="px-2 py-0.5 rounded-full bg-surface-container text-on-surface font-label-sm text-label-sm font-bold">
+            430 sold
+          </span>
+<div class="flex items-center gap-1 font-body-sm text-[11px] text-on-surface-variant">
+<span class="material-symbols-outlined text-xs text-primary">family_restroom</span>
+<span>Twinning Pack</span>
+</div>
+</div>
+</div>
+</div>
+<!-- Rank 5: Quilted Heart Crossbody Bag -->
+<div class="p-3.5 rounded-lg bg-surface-container-lowest shadow-[0_4px_18px_rgba(157,133,197,0.12)] flex gap-3 relative overflow-hidden">
+<div class="w-6 h-6 rounded-full bg-surface-container-high text-on-surface font-label-sm text-label-sm font-bold flex items-center justify-center shrink-0 mt-1">
+        5
+      </div>
+<div class="relative w-20 h-20 rounded-lg overflow-hidden shrink-0 bg-surface-container">
+<img class="w-full h-full object-cover" data-alt="Soft quilted heart-shaped mini crossbody bag in sweet lilac-lavender puff texture with playful gold chain, soft-focused pastel studio" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBlAIg-DxEQz-TpuzUzFc-xCcKqaCX4MPoRhitai62lO0P2R4Uy1IURowDicnn1q3zBsfD0RI81ZhTaWtANlTj0pJWL2gAtFAdvsvVncR13oMqKyAzGFP0g_SfUgliTfCFtT3UGRFEP0tPGv74K_LXhzSF5rnWZRFRkdVzPkxDg34hk0vE10weJo7QAucNUsYapWoA-zfzRyYS8Vouumclyt8uTMfXysMgIb2OBONuXVxoliBSkprMm"/>
+</div>
+<div class="flex-1 min-w-0 flex flex-col justify-between">
+<div>
+<div class="flex items-center justify-between gap-1">
+<span class="font-label-sm text-[10px] text-on-surface-variant font-bold tracking-wide uppercase">SKU: SM-ACC-07</span>
+<span class="font-headline-sm text-headline-sm text-on-surface font-bold">$13,192</span>
+</div>
+<h4 class="font-label-lg text-label-lg text-on-surface font-bold leading-tight truncate">Quilted Heart Crossbody Bag</h4>
+</div>
+<div class="flex items-center justify-between gap-1 mt-2">
+<span class="px-2 py-0.5 rounded-full bg-surface-container text-on-surface font-label-sm text-label-sm font-bold">
+            388 sold
+          </span>
+<div class="flex items-center gap-1 font-body-sm text-[11px] text-on-surface-variant">
+<span class="material-symbols-outlined text-xs text-secondary" style="font-variation-settings: 'FILL' 1;">favorite</span>
+<span>Viral Wishlist</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Bottom Executive Quick Action Bar -->
+<div class="px-margin pt-3">
+<div class="p-4 rounded-lg bg-surface-container-high/60 flex items-center justify-between">
+<div class="flex items-center gap-2">
+<div class="w-9 h-9 rounded-full bg-primary text-on-primary flex items-center justify-center">
+<span class="material-symbols-outlined text-xl">analytics</span>
+</div>
+<div>
+<p class="font-label-lg text-label-lg text-on-surface">Weekly Inventory Audit</p>
+<p class="font-body-sm text-body-sm text-on-surface-variant">Synced 4 mins ago with warehouse</p>
+</div>
+</div>
+<button class="px-4 py-2 rounded-full bg-primary text-on-primary font-label-md text-label-md shadow-md active:scale-95 transition-transform flex items-center gap-1" type="button">
+<span>Full Audit</span>
+<span class="material-symbols-outlined text-sm">arrow_forward</span>
+</button>
+</div>
+</div>
+</div>
+<script>
+  // Interactive Pill Filter Micro-interactions
+  document.querySelectorAll('.date-filter').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('.date-filter').forEach(b => {
+        b.classList.remove('bg-primary', 'text-on-primary', 'shadow-[0_4px_14px_rgba(103,81,141,0.25)]');
+        b.classList.add('bg-surface-container-high', 'text-on-surface-variant');
+      });
+      btn.classList.add('bg-primary', 'text-on-primary', 'shadow-[0_4px_14px_rgba(103,81,141,0.25)]');
+      btn.classList.remove('bg-surface-container-high', 'text-on-surface-variant');
+    });
+  });
+
+  document.querySelectorAll('.category-chip').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('.category-chip').forEach(b => {
+        b.classList.remove('bg-primary', 'text-on-primary', 'shadow-sm');
+        b.classList.add('bg-surface-container-high', 'text-on-surface-variant');
+      });
+      btn.classList.add('bg-primary', 'text-on-primary', 'shadow-sm');
+      btn.classList.remove('bg-surface-container-high', 'text-on-surface-variant');
+    });
+  });
+
+  const exportBtn = document.getElementById('exportBtn');
+  if (exportBtn) {
+    exportBtn.addEventListener('click', () => {
+      const origText = exportBtn.innerHTML;
+      exportBtn.innerHTML = '<span class="material-symbols-outlined text-base animate-spin text-primary">progress_activity</span><span>Preparing...</span>';
+      setTimeout(() => {
+        exportBtn.innerHTML = '<span class="material-symbols-outlined text-base text-secondary">check_circle</span><span>Exported!</span>';
+        setTimeout(() => {
+          exportBtn.innerHTML = origText;
+        }, 2000);
+      }, 900);
+    });
+  }
+</script></main></body></html>
